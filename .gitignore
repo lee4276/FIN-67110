@@ -1,1 +1,6 @@
 .env
+.uv-cache/
+.venv/
+.python/
+__pycache__/
+
