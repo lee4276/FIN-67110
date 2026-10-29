@@ -1,0 +1,1025 @@
+{
+  "run_time": "2026-10-29T10:25:40.059829-04:00",
+  "input": {
+    "ticker": "COST",
+    "peers": "WMT,TGT,BJ",
+    "price": 896.48,
+    "price_date": "2026-09-24"
+  },
+  "company": {
+    "ticker": "COST",
+    "cik": 909832,
+    "name": "COSTCO WHOLESALE CORP /NEW"
+  },
+  "filings": {
+    "10-K": {
+      "form": "10-K",
+      "filingDate": "2026-10-07",
+      "reportDate": "2026-08-30",
+      "accessionNumber": "0000909832-26-000093",
+      "primaryDocument": "cost-20260830.htm",
+      "items": "",
+      "accepted_from_index": "2026-10-06 21:13:15",
+      "index_url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000093/0000909832-26-000093-index.htm"
+    },
+    "10-Q": {
+      "form": "10-Q",
+      "filingDate": "2026-06-03",
+      "reportDate": "2026-05-10",
+      "accessionNumber": "0000909832-26-000051",
+      "primaryDocument": "cost-20260510.htm",
+      "items": "",
+      "accepted_from_index": "2026-06-03 16:43:00",
+      "index_url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000051/0000909832-26-000051-index.htm"
+    },
+    "8-K": {
+      "form": "8-K",
+      "filingDate": "2026-09-24",
+      "reportDate": "2026-09-24",
+      "accessionNumber": "0000909832-26-000084",
+      "primaryDocument": "cost-20260924.htm",
+      "items": "2.02,9.01",
+      "accepted_from_index": "2026-09-24 16:17:37",
+      "index_url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000084/0000909832-26-000084-index.htm"
+    }
+  },
+  "documents": {
+    "10-K": {
+      "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000093/cost-20260830.htm",
+      "path": "10-K_0000909832-26-000093.txt"
+    },
+    "10-Q": {
+      "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000051/cost-20260510.htm",
+      "path": "10-Q_0000909832-26-000051.txt"
+    },
+    "8-K": {
+      "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000084/cost-20260924.htm",
+      "path": "8-K_0000909832-26-000084.txt"
+    },
+    "EX-99.1": {
+      "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000084/costex9918-k92426.htm",
+      "path": "EX-99.1_0000909832-26-000084.txt"
+    }
+  },
+  "facts": {
+    "fiscal_year_end": "2026-08-30",
+    "prior_year_end": "2025-08-31",
+    "filing_accession": "0000909832-26-000093",
+    "concepts": {
+      "total_revenue": {
+        "current": {
+          "value": 303154000000,
+          "unit": "USD",
+          "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+          "period_start": "2025-09-01",
+          "period_end": "2026-08-30",
+          "accession": "0000909832-26-000093",
+          "filed": "2026-10-07"
+        },
+        "prior": {
+          "value": 275235000000,
+          "unit": "USD",
+          "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+          "period_start": "2024-09-02",
+          "period_end": "2025-08-31",
+          "accession": "0000909832-26-000093",
+          "filed": "2026-10-07"
+        }
+      },
+      "operating_income": {
+        "current": {
+          "value": 11685000000,
+          "unit": "USD",
+          "tag": "OperatingIncomeLoss",
+          "period_start": "2025-09-01",
+          "period_end": "2026-08-30",
+          "accession": "0000909832-26-000093",
+          "filed": "2026-10-07"
+        },
+        "prior": {
+          "value": 10383000000,
+          "unit": "USD",
+          "tag": "OperatingIncomeLoss",
+          "period_start": "2024-09-02",
+          "period_end": "2025-08-31",
+          "accession": "0000909832-26-000093",
+          "filed": "2026-10-07"
+        }
+      },
+      "net_income": {
+        "current": {
+          "value": 9226000000,
+          "unit": "USD",
+          "tag": "NetIncomeLoss",
+          "period_start": "2025-09-01",
+          "period_end": "2026-08-30",
+          "accession": "0000909832-26-000093",
+          "filed": "2026-10-07"
+        },
+        "prior": {
+          "value": 8099000000,
+          "unit": "USD",
+          "tag": "NetIncomeLoss",
+          "period_start": "2024-09-02",
+          "period_end": "2025-08-31",
+          "accession": "0000909832-26-000093",
+          "filed": "2026-10-07"
+        }
+      },
+      "diluted_eps": {
+        "current": {
+          "value": 20.76,
+          "unit": "USD/shares",
+          "tag": "EarningsPerShareDiluted",
+          "period_start": "2025-09-01",
+          "period_end": "2026-08-30",
+          "accession": "0000909832-26-000093",
+          "filed": "2026-10-07"
+        },
+        "prior": {
+          "value": 18.21,
+          "unit": "USD/shares",
+          "tag": "EarningsPerShareDiluted",
+          "period_start": "2024-09-02",
+          "period_end": "2025-08-31",
+          "accession": "0000909832-26-000093",
+          "filed": "2026-10-07"
+        }
+      },
+      "stockholders_equity": {
+        "current": {
+          "value": 35803000000,
+          "unit": "USD",
+          "tag": "StockholdersEquity",
+          "period_start": null,
+          "period_end": "2026-08-30",
+          "accession": "0000909832-26-000093",
+          "filed": "2026-10-07"
+        },
+        "prior": {
+          "value": 29164000000,
+          "unit": "USD",
+          "tag": "StockholdersEquity",
+          "period_start": null,
+          "period_end": "2025-08-31",
+          "accession": "0000909832-26-000093",
+          "filed": "2026-10-07"
+        }
+      },
+      "long_term_debt_noncurrent": {
+        "current": {
+          "value": 3914000000,
+          "unit": "USD",
+          "tag": "LongTermDebtNoncurrent",
+          "period_start": null,
+          "period_end": "2026-08-30",
+          "accession": "0000909832-26-000093",
+          "filed": "2026-10-07"
+        },
+        "prior": {
+          "value": 5713000000,
+          "unit": "USD",
+          "tag": "LongTermDebtNoncurrent",
+          "period_start": null,
+          "period_end": "2025-08-31",
+          "accession": "0000909832-26-000093",
+          "filed": "2026-10-07"
+        }
+      },
+      "long_term_debt_current": {
+        "current": {
+          "value": 2248000000,
+          "unit": "USD",
+          "tag": "LongTermDebtCurrent",
+          "period_start": null,
+          "period_end": "2026-08-30",
+          "accession": "0000909832-26-000093",
+          "filed": "2026-10-07"
+        },
+        "prior": {
+          "value": 75000000,
+          "unit": "USD",
+          "tag": "LongTermDebtCurrent",
+          "period_start": null,
+          "period_end": "2025-08-31",
+          "accession": "0000909832-26-000093",
+          "filed": "2026-10-07"
+        }
+      },
+      "long_term_debt_including_current": {
+        "current": null,
+        "prior": null
+      },
+      "cash_from_operations": {
+        "current": {
+          "value": 15817000000,
+          "unit": "USD",
+          "tag": "NetCashProvidedByUsedInOperatingActivities",
+          "period_start": "2025-09-01",
+          "period_end": "2026-08-30",
+          "accession": "0000909832-26-000093",
+          "filed": "2026-10-07"
+        },
+        "prior": {
+          "value": 13335000000,
+          "unit": "USD",
+          "tag": "NetCashProvidedByUsedInOperatingActivities",
+          "period_start": "2024-09-02",
+          "period_end": "2025-08-31",
+          "accession": "0000909832-26-000093",
+          "filed": "2026-10-07"
+        }
+      },
+      "property_equipment_additions": {
+        "current": {
+          "value": 6435000000,
+          "unit": "USD",
+          "tag": "PaymentsToAcquirePropertyPlantAndEquipment",
+          "period_start": "2025-09-01",
+          "period_end": "2026-08-30",
+          "accession": "0000909832-26-000093",
+          "filed": "2026-10-07"
+        },
+        "prior": {
+          "value": 5498000000,
+          "unit": "USD",
+          "tag": "PaymentsToAcquirePropertyPlantAndEquipment",
+          "period_start": "2024-09-02",
+          "period_end": "2025-08-31",
+          "accession": "0000909832-26-000093",
+          "filed": "2026-10-07"
+        }
+      }
+    }
+  },
+  "ratios": {
+    "revenue_growth": {
+      "value": 0.10143695387577888,
+      "arithmetic": "(303154000000 - 275235000000) / 275235000000"
+    },
+    "operating_margin": {
+      "value": 0.03854476602650798,
+      "arithmetic": "11685000000 / 303154000000"
+    },
+    "return_on_average_equity": {
+      "value": 0.284021118413964,
+      "arithmetic": "9226000000 / ((35803000000 + 29164000000) / 2)"
+    },
+    "debt_to_equity": {
+      "value": 0.17210848252939698,
+      "arithmetic": "6162000000 / 35803000000; debt includes current portion"
+    },
+    "free_cash_flow": {
+      "value": 9382000000,
+      "arithmetic": "15817000000 - 6435000000"
+    },
+    "price_to_earnings": {
+      "value": 43.18304431599229,
+      "arithmetic": "896.48 / 20.76; price date must be recorded separately"
+    }
+  },
+  "release_lines": {
+    "revenue_candidates": [
+      {
+        "line": 12,
+        "text": "Net sales for the quarter increased 11.2 percent, to $93.9 billion, from $84.4 billion last year. Net sales for the fiscal year increased 10.1 percent, to $297.2 billion, from $269.9 billion last year."
+      },
+      {
+        "line": 31,
+        "text": "Certain statements contained in this document constitute forward-looking statements within the meaning of the Private Securities Litigation Reform Act of 1995. For these purposes, forward-looking statements are statements that address activities, events, conditions or developments that the Company expects or anticipates may occur in the future. In some cases forward-looking statements can be identified because they contain words such as \u201canticipate,\u201d \u201cbelieve,\u201d \u201ccontinue,\u201d \u201ccould,\u201d \u201cestimate,\u201d \u201cexpect,\u201d \u201cintend,\u201d \u201clikely,\u201d \u201cmay,\u201d \u201cmight,\u201d \u201cplan,\u201d \u201cpotential,\u201d \u201cpredict,\u201d \u201cproject,\u201d \u201cseek,\u201d \u201cshould,\u201d \u201ctarget,\u201d \u201cwill,\u201d \u201cwould,\u201d or similar expressions and the negatives of those terms. Such forward-looking statements involve risks and uncertainties that may cause actual events, results or performance to differ materially from those indicated by such statements. These risks and uncertainties include, but are not limited to, domestic and international economic conditions, including exchange rates, inflation or deflation, the effects of competition and regulation, uncertainties in the financial markets, consumer and small business spending patterns and debt levels, breaches of security or privacy of member or business information, conditions affecting the acquisition, development, ownership or use of real estate, capital spending, actions of vendors, rising costs associated with employees (generally including health-care costs and wages), workforce interruptions, energy and certain commodities, geopolitical conditions (including tariffs and global conflicts), the ability to maintain effective internal control over financial reporting, regulatory and other impacts related to environmental and social matters, public-health related factors, and other risks identified from time to time in the Company\u2019s public statements and reports filed with the Securities and Exchange Commission. Forward-looking statements speak only as of the date they are made, and the Company does not undertake to update these statements, except as required by law. Comparable sales and comparable sales excluding impacts from changes in gasoline prices and foreign exchange are intended as supplemental information and are not a substitute for net sales presented in accordance with U.S. GAAP."
+      },
+      {
+        "line": 50,
+        "text": "| REVENUE | | | | | | |"
+      },
+      {
+        "line": 51,
+        "text": "| Net sales | $ | 93,873 | | | $ | 84,432 | | | $ | 297,247 | | | $ | 269,912 |"
+      },
+      {
+        "line": 53,
+        "text": "| Total revenue | 95,723 | | | 86,156 | | | 303,154 | | | 275,235 |"
+      }
+    ],
+    "diluted_eps_candidates": [
+      {
+        "line": 25,
+        "text": "Net income for the fourth quarter was $2.998 billion, $6.75 per diluted share, compared to $2.610 billion, $5.87 per diluted share, last year. This year's fourth quarter was positively impacted by a non-recurring benefit of $0.15 per diluted share from IEEPA tariff refunds received in the quarter, less partial reinvestment of those refunds in increased member values. Net income for the fiscal year was $9.226 billion, $20.76 per diluted share, compared to $8.099 billion, $18.21 per diluted share, last year."
+      }
+    ],
+    "quarter_revenue_growth": {
+      "current": 95723.0,
+      "prior": 86156.0,
+      "value": 0.11104275964529453,
+      "arithmetic": "(95723.0 / 86156.0) - 1",
+      "source_line": 53,
+      "current_line": 53,
+      "prior_line": 53,
+      "unit": "as displayed in release table"
+    }
+  },
+  "peers": {
+    "WMT": {
+      "company": {
+        "ticker": "WMT",
+        "cik": 104169,
+        "name": "Walmart Inc."
+      },
+      "filings": {
+        "10-K": {
+          "form": "10-K",
+          "filingDate": "2026-03-13",
+          "reportDate": "2026-01-31",
+          "accessionNumber": "0000104169-26-000055",
+          "primaryDocument": "wmt-20260131.htm",
+          "items": "",
+          "accepted_from_index": "2026-03-13 16:06:24",
+          "index_url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000055/0000104169-26-000055-index.htm"
+        },
+        "10-Q": {
+          "form": "10-Q",
+          "filingDate": "2026-08-28",
+          "reportDate": "2026-07-31",
+          "accessionNumber": "0000104169-26-000154",
+          "primaryDocument": "wmt-20260731.htm",
+          "items": "",
+          "accepted_from_index": "2026-08-28 16:11:28",
+          "index_url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000154/0000104169-26-000154-index.htm"
+        },
+        "8-K": {
+          "form": "8-K",
+          "filingDate": "2026-08-20",
+          "reportDate": "2026-08-20",
+          "accessionNumber": "0000104169-26-000145",
+          "primaryDocument": "wmt-20260820.htm",
+          "items": "2.02,9.01",
+          "accepted_from_index": "2026-08-20 06:59:01",
+          "index_url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000145/0000104169-26-000145-index.htm"
+        }
+      },
+      "facts": {
+        "fiscal_year_end": "2026-01-31",
+        "prior_year_end": "2025-01-31",
+        "filing_accession": "0000104169-26-000055",
+        "concepts": {
+          "total_revenue": {
+            "current": {
+              "value": 713163000000,
+              "unit": "USD",
+              "tag": "Revenues",
+              "period_start": "2025-02-01",
+              "period_end": "2026-01-31",
+              "accession": "0000104169-26-000055",
+              "filed": "2026-03-13"
+            },
+            "prior": {
+              "value": 680985000000,
+              "unit": "USD",
+              "tag": "Revenues",
+              "period_start": "2024-02-01",
+              "period_end": "2025-01-31",
+              "accession": "0000104169-26-000055",
+              "filed": "2026-03-13"
+            }
+          },
+          "operating_income": {
+            "current": {
+              "value": 29825000000,
+              "unit": "USD",
+              "tag": "OperatingIncomeLoss",
+              "period_start": "2025-02-01",
+              "period_end": "2026-01-31",
+              "accession": "0000104169-26-000055",
+              "filed": "2026-03-13"
+            },
+            "prior": {
+              "value": 29348000000,
+              "unit": "USD",
+              "tag": "OperatingIncomeLoss",
+              "period_start": "2024-02-01",
+              "period_end": "2025-01-31",
+              "accession": "0000104169-26-000055",
+              "filed": "2026-03-13"
+            }
+          },
+          "net_income": {
+            "current": {
+              "value": 21893000000,
+              "unit": "USD",
+              "tag": "NetIncomeLoss",
+              "period_start": "2025-02-01",
+              "period_end": "2026-01-31",
+              "accession": "0000104169-26-000055",
+              "filed": "2026-03-13"
+            },
+            "prior": {
+              "value": 19436000000,
+              "unit": "USD",
+              "tag": "NetIncomeLoss",
+              "period_start": "2024-02-01",
+              "period_end": "2025-01-31",
+              "accession": "0000104169-26-000055",
+              "filed": "2026-03-13"
+            }
+          },
+          "diluted_eps": {
+            "current": {
+              "value": 2.73,
+              "unit": "USD/shares",
+              "tag": "EarningsPerShareDiluted",
+              "period_start": "2025-02-01",
+              "period_end": "2026-01-31",
+              "accession": "0000104169-26-000055",
+              "filed": "2026-03-13"
+            },
+            "prior": {
+              "value": 2.41,
+              "unit": "USD/shares",
+              "tag": "EarningsPerShareDiluted",
+              "period_start": "2024-02-01",
+              "period_end": "2025-01-31",
+              "accession": "0000104169-26-000055",
+              "filed": "2026-03-13"
+            }
+          },
+          "stockholders_equity": {
+            "current": {
+              "value": 99617000000,
+              "unit": "USD",
+              "tag": "StockholdersEquity",
+              "period_start": null,
+              "period_end": "2026-01-31",
+              "accession": "0000104169-26-000055",
+              "filed": "2026-03-13"
+            },
+            "prior": {
+              "value": 91013000000,
+              "unit": "USD",
+              "tag": "StockholdersEquity",
+              "period_start": null,
+              "period_end": "2025-01-31",
+              "accession": "0000104169-26-000055",
+              "filed": "2026-03-13"
+            }
+          },
+          "long_term_debt_noncurrent": {
+            "current": {
+              "value": 34624000000,
+              "unit": "USD",
+              "tag": "LongTermDebtNoncurrent",
+              "period_start": null,
+              "period_end": "2026-01-31",
+              "accession": "0000104169-26-000055",
+              "filed": "2026-03-13"
+            },
+            "prior": {
+              "value": 33401000000,
+              "unit": "USD",
+              "tag": "LongTermDebtNoncurrent",
+              "period_start": null,
+              "period_end": "2025-01-31",
+              "accession": "0000104169-26-000055",
+              "filed": "2026-03-13"
+            }
+          },
+          "long_term_debt_current": {
+            "current": {
+              "value": 3542000000,
+              "unit": "USD",
+              "tag": "LongTermDebtCurrent",
+              "period_start": null,
+              "period_end": "2026-01-31",
+              "accession": "0000104169-26-000055",
+              "filed": "2026-03-13"
+            },
+            "prior": {
+              "value": 2598000000,
+              "unit": "USD",
+              "tag": "LongTermDebtCurrent",
+              "period_start": null,
+              "period_end": "2025-01-31",
+              "accession": "0000104169-26-000055",
+              "filed": "2026-03-13"
+            }
+          },
+          "long_term_debt_including_current": {
+            "current": null,
+            "prior": null
+          },
+          "cash_from_operations": {
+            "current": {
+              "value": 41565000000,
+              "unit": "USD",
+              "tag": "NetCashProvidedByUsedInOperatingActivities",
+              "period_start": "2025-02-01",
+              "period_end": "2026-01-31",
+              "accession": "0000104169-26-000055",
+              "filed": "2026-03-13"
+            },
+            "prior": {
+              "value": 36443000000,
+              "unit": "USD",
+              "tag": "NetCashProvidedByUsedInOperatingActivities",
+              "period_start": "2024-02-01",
+              "period_end": "2025-01-31",
+              "accession": "0000104169-26-000055",
+              "filed": "2026-03-13"
+            }
+          },
+          "property_equipment_additions": {
+            "current": {
+              "value": 26642000000,
+              "unit": "USD",
+              "tag": "PaymentsToAcquirePropertyPlantAndEquipment",
+              "period_start": "2025-02-01",
+              "period_end": "2026-01-31",
+              "accession": "0000104169-26-000055",
+              "filed": "2026-03-13"
+            },
+            "prior": {
+              "value": 23783000000,
+              "unit": "USD",
+              "tag": "PaymentsToAcquirePropertyPlantAndEquipment",
+              "period_start": "2024-02-01",
+              "period_end": "2025-01-31",
+              "accession": "0000104169-26-000055",
+              "filed": "2026-03-13"
+            }
+          }
+        }
+      },
+      "operating_margin": {
+        "value": 0.041820733829433104,
+        "arithmetic": "29825000000 / 713163000000"
+      }
+    },
+    "TGT": {
+      "company": {
+        "ticker": "TGT",
+        "cik": 27419,
+        "name": "TARGET CORP"
+      },
+      "filings": {
+        "10-K": {
+          "form": "10-K",
+          "filingDate": "2026-03-11",
+          "reportDate": "2026-01-31",
+          "accessionNumber": "0000027419-26-000016",
+          "primaryDocument": "tgt-20260131.htm",
+          "items": "",
+          "accepted_from_index": "2026-03-11 16:42:00",
+          "index_url": "https://www.sec.gov/Archives/edgar/data/27419/000002741926000016/0000027419-26-000016-index.htm"
+        },
+        "10-Q": {
+          "form": "10-Q",
+          "filingDate": "2026-08-28",
+          "reportDate": "2026-08-01",
+          "accessionNumber": "0000027419-26-000042",
+          "primaryDocument": "tgt-20260801.htm",
+          "items": "",
+          "accepted_from_index": "2026-08-28 13:53:59",
+          "index_url": "https://www.sec.gov/Archives/edgar/data/27419/000002741926000042/0000027419-26-000042-index.htm"
+        },
+        "8-K": {
+          "form": "8-K",
+          "filingDate": "2026-08-19",
+          "reportDate": "2026-08-19",
+          "accessionNumber": "0000027419-26-000034",
+          "primaryDocument": "tgt-20260819.htm",
+          "items": "2.02,9.01",
+          "accepted_from_index": "2026-08-19 07:51:13",
+          "index_url": "https://www.sec.gov/Archives/edgar/data/27419/000002741926000034/0000027419-26-000034-index.htm"
+        }
+      },
+      "facts": {
+        "fiscal_year_end": "2026-01-31",
+        "prior_year_end": "2025-02-01",
+        "filing_accession": "0000027419-26-000016",
+        "concepts": {
+          "total_revenue": {
+            "current": {
+              "value": 104780000000,
+              "unit": "USD",
+              "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+              "period_start": "2025-02-02",
+              "period_end": "2026-01-31",
+              "accession": "0000027419-26-000016",
+              "filed": "2026-03-11"
+            },
+            "prior": {
+              "value": 106566000000,
+              "unit": "USD",
+              "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+              "period_start": "2024-02-04",
+              "period_end": "2025-02-01",
+              "accession": "0000027419-26-000016",
+              "filed": "2026-03-11"
+            }
+          },
+          "operating_income": {
+            "current": {
+              "value": 5117000000,
+              "unit": "USD",
+              "tag": "OperatingIncomeLoss",
+              "period_start": "2025-02-02",
+              "period_end": "2026-01-31",
+              "accession": "0000027419-26-000016",
+              "filed": "2026-03-11"
+            },
+            "prior": {
+              "value": 5566000000,
+              "unit": "USD",
+              "tag": "OperatingIncomeLoss",
+              "period_start": "2024-02-04",
+              "period_end": "2025-02-01",
+              "accession": "0000027419-26-000016",
+              "filed": "2026-03-11"
+            }
+          },
+          "net_income": {
+            "current": {
+              "value": 3705000000,
+              "unit": "USD",
+              "tag": "NetIncomeLoss",
+              "period_start": "2025-02-02",
+              "period_end": "2026-01-31",
+              "accession": "0000027419-26-000016",
+              "filed": "2026-03-11"
+            },
+            "prior": {
+              "value": 4091000000,
+              "unit": "USD",
+              "tag": "NetIncomeLoss",
+              "period_start": "2024-02-04",
+              "period_end": "2025-02-01",
+              "accession": "0000027419-26-000016",
+              "filed": "2026-03-11"
+            }
+          },
+          "diluted_eps": {
+            "current": {
+              "value": 8.13,
+              "unit": "USD/shares",
+              "tag": "EarningsPerShareDiluted",
+              "period_start": "2025-02-02",
+              "period_end": "2026-01-31",
+              "accession": "0000027419-26-000016",
+              "filed": "2026-03-11"
+            },
+            "prior": {
+              "value": 8.86,
+              "unit": "USD/shares",
+              "tag": "EarningsPerShareDiluted",
+              "period_start": "2024-02-04",
+              "period_end": "2025-02-01",
+              "accession": "0000027419-26-000016",
+              "filed": "2026-03-11"
+            }
+          },
+          "stockholders_equity": {
+            "current": {
+              "value": 16165000000,
+              "unit": "USD",
+              "tag": "StockholdersEquity",
+              "period_start": null,
+              "period_end": "2026-01-31",
+              "accession": "0000027419-26-000016",
+              "filed": "2026-03-11"
+            },
+            "prior": {
+              "value": 14666000000,
+              "unit": "USD",
+              "tag": "StockholdersEquity",
+              "period_start": null,
+              "period_end": "2025-02-01",
+              "accession": "0000027419-26-000016",
+              "filed": "2026-03-11"
+            }
+          },
+          "long_term_debt_noncurrent": {
+            "current": {
+              "value": 14326000000,
+              "unit": "USD",
+              "tag": "LongTermDebtAndCapitalLeaseObligations",
+              "period_start": null,
+              "period_end": "2026-01-31",
+              "accession": "0000027419-26-000016",
+              "filed": "2026-03-11"
+            },
+            "prior": {
+              "value": 14304000000,
+              "unit": "USD",
+              "tag": "LongTermDebtAndCapitalLeaseObligations",
+              "period_start": null,
+              "period_end": "2025-02-01",
+              "accession": "0000027419-26-000016",
+              "filed": "2026-03-11"
+            }
+          },
+          "long_term_debt_current": {
+            "current": {
+              "value": 2130000000,
+              "unit": "USD",
+              "tag": "LongTermDebtAndCapitalLeaseObligationsCurrent",
+              "period_start": null,
+              "period_end": "2026-01-31",
+              "accession": "0000027419-26-000016",
+              "filed": "2026-03-11"
+            },
+            "prior": {
+              "value": 1636000000,
+              "unit": "USD",
+              "tag": "LongTermDebtAndCapitalLeaseObligationsCurrent",
+              "period_start": null,
+              "period_end": "2025-02-01",
+              "accession": "0000027419-26-000016",
+              "filed": "2026-03-11"
+            }
+          },
+          "long_term_debt_including_current": {
+            "current": null,
+            "prior": null
+          },
+          "cash_from_operations": {
+            "current": {
+              "value": 6562000000,
+              "unit": "USD",
+              "tag": "NetCashProvidedByUsedInOperatingActivities",
+              "period_start": "2025-02-02",
+              "period_end": "2026-01-31",
+              "accession": "0000027419-26-000016",
+              "filed": "2026-03-11"
+            },
+            "prior": {
+              "value": 7367000000,
+              "unit": "USD",
+              "tag": "NetCashProvidedByUsedInOperatingActivities",
+              "period_start": "2024-02-04",
+              "period_end": "2025-02-01",
+              "accession": "0000027419-26-000016",
+              "filed": "2026-03-11"
+            }
+          },
+          "property_equipment_additions": {
+            "current": {
+              "value": 3727000000,
+              "unit": "USD",
+              "tag": "PaymentsToAcquirePropertyPlantAndEquipment",
+              "period_start": "2025-02-02",
+              "period_end": "2026-01-31",
+              "accession": "0000027419-26-000016",
+              "filed": "2026-03-11"
+            },
+            "prior": {
+              "value": 2891000000,
+              "unit": "USD",
+              "tag": "PaymentsToAcquirePropertyPlantAndEquipment",
+              "period_start": "2024-02-04",
+              "period_end": "2025-02-01",
+              "accession": "0000027419-26-000016",
+              "filed": "2026-03-11"
+            }
+          }
+        }
+      },
+      "operating_margin": {
+        "value": 0.048835655659477,
+        "arithmetic": "5117000000 / 104780000000"
+      }
+    },
+    "BJ": {
+      "company": {
+        "ticker": "BJ",
+        "cik": 1531152,
+        "name": "BJ's Wholesale Club Holdings, Inc."
+      },
+      "filings": {
+        "10-K": {
+          "form": "10-K",
+          "filingDate": "2026-03-12",
+          "reportDate": "2026-01-31",
+          "accessionNumber": "0001531152-26-000007",
+          "primaryDocument": "bj-20260131.htm",
+          "items": "",
+          "accepted_from_index": "2026-03-12 16:15:55",
+          "index_url": "https://www.sec.gov/Archives/edgar/data/1531152/000153115226000007/0001531152-26-000007-index.htm"
+        },
+        "10-Q": {
+          "form": "10-Q",
+          "filingDate": "2026-08-25",
+          "reportDate": "2026-08-01",
+          "accessionNumber": "0001531152-26-000057",
+          "primaryDocument": "bj-20260801.htm",
+          "items": "",
+          "accepted_from_index": "2026-08-25 16:32:14",
+          "index_url": "https://www.sec.gov/Archives/edgar/data/1531152/000153115226000057/0001531152-26-000057-index.htm"
+        },
+        "8-K": {
+          "form": "8-K",
+          "filingDate": "2026-08-21",
+          "reportDate": "2026-08-21",
+          "accessionNumber": "0001531152-26-000053",
+          "primaryDocument": "bj-20260821.htm",
+          "items": "2.02,5.02,9.01",
+          "accepted_from_index": "2026-08-21 07:03:32",
+          "index_url": "https://www.sec.gov/Archives/edgar/data/1531152/000153115226000053/0001531152-26-000053-index.htm"
+        }
+      },
+      "facts": {
+        "fiscal_year_end": "2026-01-31",
+        "prior_year_end": "2025-02-01",
+        "filing_accession": "0001531152-26-000007",
+        "concepts": {
+          "total_revenue": {
+            "current": {
+              "value": 21457274000,
+              "unit": "USD",
+              "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+              "period_start": "2025-02-02",
+              "period_end": "2026-01-31",
+              "accession": "0001531152-26-000007",
+              "filed": "2026-03-12"
+            },
+            "prior": {
+              "value": 20501804000,
+              "unit": "USD",
+              "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+              "period_start": "2024-02-04",
+              "period_end": "2025-02-01",
+              "accession": "0001531152-26-000007",
+              "filed": "2026-03-12"
+            }
+          },
+          "operating_income": {
+            "current": {
+              "value": 816604000,
+              "unit": "USD",
+              "tag": "OperatingIncomeLoss",
+              "period_start": "2025-02-02",
+              "period_end": "2026-01-31",
+              "accession": "0001531152-26-000007",
+              "filed": "2026-03-12"
+            },
+            "prior": {
+              "value": 772206000,
+              "unit": "USD",
+              "tag": "OperatingIncomeLoss",
+              "period_start": "2024-02-04",
+              "period_end": "2025-02-01",
+              "accession": "0001531152-26-000007",
+              "filed": "2026-03-12"
+            }
+          },
+          "net_income": {
+            "current": {
+              "value": 578377000,
+              "unit": "USD",
+              "tag": "NetIncomeLoss",
+              "period_start": "2025-02-02",
+              "period_end": "2026-01-31",
+              "accession": "0001531152-26-000007",
+              "filed": "2026-03-12"
+            },
+            "prior": {
+              "value": 534417000,
+              "unit": "USD",
+              "tag": "NetIncomeLoss",
+              "period_start": "2024-02-04",
+              "period_end": "2025-02-01",
+              "accession": "0001531152-26-000007",
+              "filed": "2026-03-12"
+            }
+          },
+          "diluted_eps": {
+            "current": {
+              "value": 4.38,
+              "unit": "USD/shares",
+              "tag": "EarningsPerShareDiluted",
+              "period_start": "2025-02-02",
+              "period_end": "2026-01-31",
+              "accession": "0001531152-26-000007",
+              "filed": "2026-03-12"
+            },
+            "prior": {
+              "value": 4,
+              "unit": "USD/shares",
+              "tag": "EarningsPerShareDiluted",
+              "period_start": "2024-02-04",
+              "period_end": "2025-02-01",
+              "accession": "0001531152-26-000007",
+              "filed": "2026-03-12"
+            }
+          },
+          "stockholders_equity": {
+            "current": {
+              "value": 2197659000,
+              "unit": "USD",
+              "tag": "StockholdersEquity",
+              "period_start": null,
+              "period_end": "2026-01-31",
+              "accession": "0001531152-26-000007",
+              "filed": "2026-03-12"
+            },
+            "prior": {
+              "value": 1847454000,
+              "unit": "USD",
+              "tag": "StockholdersEquity",
+              "period_start": null,
+              "period_end": "2025-02-01",
+              "accession": "0001531152-26-000007",
+              "filed": "2026-03-12"
+            }
+          },
+          "long_term_debt_noncurrent": {
+            "current": {
+              "value": 399099000,
+              "unit": "USD",
+              "tag": "LongTermDebtNoncurrent",
+              "period_start": null,
+              "period_end": "2026-01-31",
+              "accession": "0001531152-26-000007",
+              "filed": "2026-03-12"
+            },
+            "prior": {
+              "value": 398807000,
+              "unit": "USD",
+              "tag": "LongTermDebtNoncurrent",
+              "period_start": null,
+              "period_end": "2025-02-01",
+              "accession": "0001531152-26-000007",
+              "filed": "2026-03-12"
+            }
+          },
+          "long_term_debt_current": {
+            "current": {
+              "value": 120000000,
+              "unit": "USD",
+              "tag": "LongTermDebtCurrent",
+              "period_start": null,
+              "period_end": "2026-01-31",
+              "accession": "0001531152-26-000007",
+              "filed": "2026-03-12"
+            },
+            "prior": {
+              "value": 175000000,
+              "unit": "USD",
+              "tag": "LongTermDebtCurrent",
+              "period_start": null,
+              "period_end": "2025-02-01",
+              "accession": "0001531152-26-000007",
+              "filed": "2026-03-12"
+            }
+          },
+          "long_term_debt_including_current": {
+            "current": null,
+            "prior": null
+          },
+          "cash_from_operations": {
+            "current": {
+              "value": 1030056000,
+              "unit": "USD",
+              "tag": "NetCashProvidedByUsedInOperatingActivities",
+              "period_start": "2025-02-02",
+              "period_end": "2026-01-31",
+              "accession": "0001531152-26-000007",
+              "filed": "2026-03-12"
+            },
+            "prior": {
+              "value": 900872000,
+              "unit": "USD",
+              "tag": "NetCashProvidedByUsedInOperatingActivities",
+              "period_start": "2024-02-04",
+              "period_end": "2025-02-01",
+              "accession": "0001531152-26-000007",
+              "filed": "2026-03-12"
+            }
+          },
+          "property_equipment_additions": {
+            "current": {
+              "value": 702048000,
+              "unit": "USD",
+              "tag": "PaymentsToAcquirePropertyPlantAndEquipment",
+              "period_start": "2025-02-02",
+              "period_end": "2026-01-31",
+              "accession": "0001531152-26-000007",
+              "filed": "2026-03-12"
+            },
+            "prior": {
+              "value": 587983000,
+              "unit": "USD",
+              "tag": "PaymentsToAcquirePropertyPlantAndEquipment",
+              "period_start": "2024-02-04",
+              "period_end": "2025-02-01",
+              "accession": "0001531152-26-000007",
+              "filed": "2026-03-12"
+            }
+          }
+        }
+      },
+      "operating_margin": {
+        "value": 0.03805721080879146,
+        "arithmetic": "816604000 / 21457274000"
+      }
+    }
+  }
+}
