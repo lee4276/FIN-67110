@@ -1,0 +1,472 @@
+{
+  "task": "Write the Financial Analyst part from assigned evidence",
+  "context": {
+    "company": {
+      "ticker": "COST",
+      "cik": 909832,
+      "name": "COSTCO WHOLESALE CORP /NEW"
+    },
+    "filings": {
+      "10-K": {
+        "form": "10-K",
+        "filingDate": "2026-10-07",
+        "reportDate": "2026-08-30",
+        "accessionNumber": "0000909832-26-000093",
+        "primaryDocument": "cost-20260830.htm",
+        "items": "",
+        "accepted_from_index": "2026-10-06 21:13:15",
+        "index_url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000093/0000909832-26-000093-index.htm"
+      },
+      "10-Q": {
+        "form": "10-Q",
+        "filingDate": "2026-06-03",
+        "reportDate": "2026-05-10",
+        "accessionNumber": "0000909832-26-000051",
+        "primaryDocument": "cost-20260510.htm",
+        "items": "",
+        "accepted_from_index": "2026-06-03 16:43:00",
+        "index_url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000051/0000909832-26-000051-index.htm"
+      },
+      "8-K": {
+        "form": "8-K",
+        "filingDate": "2026-09-24",
+        "reportDate": "2026-09-24",
+        "accessionNumber": "0000909832-26-000084",
+        "primaryDocument": "cost-20260924.htm",
+        "items": "2.02,9.01",
+        "accepted_from_index": "2026-09-24 16:17:37",
+        "index_url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000084/0000909832-26-000084-index.htm"
+      }
+    },
+    "facts": {
+      "fiscal_year_end": "2026-08-30",
+      "prior_year_end": "2025-08-31",
+      "filing_accession": "0000909832-26-000093",
+      "concepts": {
+        "total_revenue": {
+          "current": {
+            "value": 303154000000,
+            "unit": "USD",
+            "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+            "period_start": "2025-09-01",
+            "period_end": "2026-08-30",
+            "accession": "0000909832-26-000093",
+            "filed": "2026-10-07"
+          },
+          "prior": {
+            "value": 275235000000,
+            "unit": "USD",
+            "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+            "period_start": "2024-09-02",
+            "period_end": "2025-08-31",
+            "accession": "0000909832-26-000093",
+            "filed": "2026-10-07"
+          }
+        },
+        "operating_income": {
+          "current": {
+            "value": 11685000000,
+            "unit": "USD",
+            "tag": "OperatingIncomeLoss",
+            "period_start": "2025-09-01",
+            "period_end": "2026-08-30",
+            "accession": "0000909832-26-000093",
+            "filed": "2026-10-07"
+          },
+          "prior": {
+            "value": 10383000000,
+            "unit": "USD",
+            "tag": "OperatingIncomeLoss",
+            "period_start": "2024-09-02",
+            "period_end": "2025-08-31",
+            "accession": "0000909832-26-000093",
+            "filed": "2026-10-07"
+          }
+        },
+        "net_income": {
+          "current": {
+            "value": 9226000000,
+            "unit": "USD",
+            "tag": "NetIncomeLoss",
+            "period_start": "2025-09-01",
+            "period_end": "2026-08-30",
+            "accession": "0000909832-26-000093",
+            "filed": "2026-10-07"
+          },
+          "prior": {
+            "value": 8099000000,
+            "unit": "USD",
+            "tag": "NetIncomeLoss",
+            "period_start": "2024-09-02",
+            "period_end": "2025-08-31",
+            "accession": "0000909832-26-000093",
+            "filed": "2026-10-07"
+          }
+        },
+        "diluted_eps": {
+          "current": {
+            "value": 20.76,
+            "unit": "USD/shares",
+            "tag": "EarningsPerShareDiluted",
+            "period_start": "2025-09-01",
+            "period_end": "2026-08-30",
+            "accession": "0000909832-26-000093",
+            "filed": "2026-10-07"
+          },
+          "prior": {
+            "value": 18.21,
+            "unit": "USD/shares",
+            "tag": "EarningsPerShareDiluted",
+            "period_start": "2024-09-02",
+            "period_end": "2025-08-31",
+            "accession": "0000909832-26-000093",
+            "filed": "2026-10-07"
+          }
+        },
+        "stockholders_equity": {
+          "current": {
+            "value": 35803000000,
+            "unit": "USD",
+            "tag": "StockholdersEquity",
+            "period_start": null,
+            "period_end": "2026-08-30",
+            "accession": "0000909832-26-000093",
+            "filed": "2026-10-07"
+          },
+          "prior": {
+            "value": 29164000000,
+            "unit": "USD",
+            "tag": "StockholdersEquity",
+            "period_start": null,
+            "period_end": "2025-08-31",
+            "accession": "0000909832-26-000093",
+            "filed": "2026-10-07"
+          }
+        },
+        "long_term_debt_noncurrent": {
+          "current": {
+            "value": 3914000000,
+            "unit": "USD",
+            "tag": "LongTermDebtNoncurrent",
+            "period_start": null,
+            "period_end": "2026-08-30",
+            "accession": "0000909832-26-000093",
+            "filed": "2026-10-07"
+          },
+          "prior": {
+            "value": 5713000000,
+            "unit": "USD",
+            "tag": "LongTermDebtNoncurrent",
+            "period_start": null,
+            "period_end": "2025-08-31",
+            "accession": "0000909832-26-000093",
+            "filed": "2026-10-07"
+          }
+        },
+        "long_term_debt_current": {
+          "current": {
+            "value": 2248000000,
+            "unit": "USD",
+            "tag": "LongTermDebtCurrent",
+            "period_start": null,
+            "period_end": "2026-08-30",
+            "accession": "0000909832-26-000093",
+            "filed": "2026-10-07"
+          },
+          "prior": {
+            "value": 75000000,
+            "unit": "USD",
+            "tag": "LongTermDebtCurrent",
+            "period_start": null,
+            "period_end": "2025-08-31",
+            "accession": "0000909832-26-000093",
+            "filed": "2026-10-07"
+          }
+        },
+        "long_term_debt_including_current": {
+          "current": null,
+          "prior": null
+        },
+        "cash_from_operations": {
+          "current": {
+            "value": 15817000000,
+            "unit": "USD",
+            "tag": "NetCashProvidedByUsedInOperatingActivities",
+            "period_start": "2025-09-01",
+            "period_end": "2026-08-30",
+            "accession": "0000909832-26-000093",
+            "filed": "2026-10-07"
+          },
+          "prior": {
+            "value": 13335000000,
+            "unit": "USD",
+            "tag": "NetCashProvidedByUsedInOperatingActivities",
+            "period_start": "2024-09-02",
+            "period_end": "2025-08-31",
+            "accession": "0000909832-26-000093",
+            "filed": "2026-10-07"
+          }
+        },
+        "property_equipment_additions": {
+          "current": {
+            "value": 6435000000,
+            "unit": "USD",
+            "tag": "PaymentsToAcquirePropertyPlantAndEquipment",
+            "period_start": "2025-09-01",
+            "period_end": "2026-08-30",
+            "accession": "0000909832-26-000093",
+            "filed": "2026-10-07"
+          },
+          "prior": {
+            "value": 5498000000,
+            "unit": "USD",
+            "tag": "PaymentsToAcquirePropertyPlantAndEquipment",
+            "period_start": "2024-09-02",
+            "period_end": "2025-08-31",
+            "accession": "0000909832-26-000093",
+            "filed": "2026-10-07"
+          }
+        }
+      }
+    },
+    "ratios_calculated_in_code": {
+      "revenue_growth": {
+        "value": 0.10143695387577888,
+        "arithmetic": "(303154000000 - 275235000000) / 275235000000"
+      },
+      "operating_margin": {
+        "value": 0.03854476602650798,
+        "arithmetic": "11685000000 / 303154000000"
+      },
+      "return_on_average_equity": {
+        "value": 0.284021118413964,
+        "arithmetic": "9226000000 / ((35803000000 + 29164000000) / 2)"
+      },
+      "debt_to_equity": {
+        "value": 0.17210848252939698,
+        "arithmetic": "6162000000 / 35803000000; debt includes current portion"
+      },
+      "free_cash_flow": {
+        "value": 9382000000,
+        "arithmetic": "15817000000 - 6435000000"
+      },
+      "price_to_earnings": {
+        "value": 43.18304431599229,
+        "arithmetic": "896.48 / 20.76; price date must be recorded separately"
+      }
+    },
+    "quarter_release_lines": {
+      "revenue_candidates": [
+        {
+          "line": 12,
+          "text": "Net sales for the quarter increased 11.2 percent, to $93.9 billion, from $84.4 billion last year. Net sales for the fiscal year increased 10.1 percent, to $297.2 billion, from $269.9 billion last year."
+        },
+        {
+          "line": 31,
+          "text": "Certain statements contained in this document constitute forward-looking statements within the meaning of the Private Securities Litigation Reform Act of 1995. For these purposes, forward-looking statements are statements that address activities, events, conditions or developments that the Company expects or anticipates may occur in the future. In some cases forward-looking statements can be identified because they contain words such as “anticipate,” “believe,” “continue,” “could,” “estimate,” “expect,” “intend,” “likely,” “may,” “might,” “plan,” “potential,” “predict,” “project,” “seek,” “should,” “target,” “will,” “would,” or similar expressions and the negatives of those terms. Such forward-looking statements involve risks and uncertainties that may cause actual events, results or performance to differ materially from those indicated by such statements. These risks and uncertainties include, but are not limited to, domestic and international economic conditions, including exchange rates, inflation or deflation, the effects of competition and regulation, uncertainties in the financial markets, consumer and small business spending patterns and debt levels, breaches of security or privacy of member or business information, conditions affecting the acquisition, development, ownership or use of real estate, capital spending, actions of vendors, rising costs associated with employees (generally including health-care costs and wages), workforce interruptions, energy and certain commodities, geopolitical conditions (including tariffs and global conflicts), the ability to maintain effective internal control over financial reporting, regulatory and other impacts related to environmental and social matters, public-health related factors, and other risks identified from time to time in the Company’s public statements and reports filed with the Securities and Exchange Commission. Forward-looking statements speak only as of the date they are made, and the Company does not undertake to update these statements, except as required by law. Comparable sales and comparable sales excluding impacts from changes in gasoline prices and foreign exchange are intended as supplemental information and are not a substitute for net sales presented in accordance with U.S. GAAP."
+        },
+        {
+          "line": 50,
+          "text": "| REVENUE | | | | | | |"
+        },
+        {
+          "line": 51,
+          "text": "| Net sales | $ | 93,873 | | | $ | 84,432 | | | $ | 297,247 | | | $ | 269,912 |"
+        },
+        {
+          "line": 53,
+          "text": "| Total revenue | 95,723 | | | 86,156 | | | 303,154 | | | 275,235 |"
+        }
+      ],
+      "diluted_eps_candidates": [
+        {
+          "line": 25,
+          "text": "Net income for the fourth quarter was $2.998 billion, $6.75 per diluted share, compared to $2.610 billion, $5.87 per diluted share, last year. This year's fourth quarter was positively impacted by a non-recurring benefit of $0.15 per diluted share from IEEPA tariff refunds received in the quarter, less partial reinvestment of those refunds in increased member values. Net income for the fiscal year was $9.226 billion, $20.76 per diluted share, compared to $8.099 billion, $18.21 per diluted share, last year."
+        }
+      ],
+      "quarter_revenue_growth": {
+        "current": 95723.0,
+        "prior": 86156.0,
+        "value": 0.11104275964529453,
+        "arithmetic": "(95723.0 / 86156.0) - 1",
+        "source_line": 53,
+        "current_line": 53,
+        "prior_line": 53,
+        "unit": "as displayed in release table"
+      }
+    },
+    "price_and_date": {
+      "price": 896.48,
+      "date": "2026-09-24"
+    },
+    "income_statement_excerpt": "10-K_0000909832-26-000093.txt:L724: CONSOLIDATED STATEMENTS OF INCOME\n10-K_0000909832-26-000093.txt:L725: (amounts in millions, except per share data)\n10-K_0000909832-26-000093.txt:L726: | | | | | | | | | | | | | | | | | |\n10-K_0000909832-26-000093.txt:L727: | | 52 Weeks Ended\n10-K_0000909832-26-000093.txt:L728: | | August 30,\n10-K_0000909832-26-000093.txt:L729: 2026 | | August 31,\n10-K_0000909832-26-000093.txt:L730: 2025 | | September 1,\n10-K_0000909832-26-000093.txt:L731: 2024\n10-K_0000909832-26-000093.txt:L732: | REVENUE | | | | |\n10-K_0000909832-26-000093.txt:L733: | Net sales | $ | 297,247 | | | $ | 269,912 | | | $ | 249,625 |\n10-K_0000909832-26-000093.txt:L734: | Membership fees | 5,907 | | | 5,323 | | | 4,828 |\n10-K_0000909832-26-000093.txt:L735: | Total revenue | 303,154 | | | 275,235 | | | 254,453 |\n10-K_0000909832-26-000093.txt:L736: | OPERATING EXPENSES | | | | |\n10-K_0000909832-26-000093.txt:L737: | Merchandise costs | 264,279 | | | 239,886 | | | 222,358 |\n10-K_0000909832-26-000093.txt:L738: | Selling, general and administrative | 27,190 | | | 24,966 | | | 22,810 |\n10-K_0000909832-26-000093.txt:L739: | Operating income | 11,685 | | | 10,383 | | | 9,285 |\n10-K_0000909832-26-000093.txt:L740: | OTHER INCOME (EXPENSE) | | | | |\n10-K_0000909832-26-000093.txt:L741: | Interest expense | (145) | | | (154) | | | (169) |\n10-K_0000909832-26-000093.txt:L742: | Interest income and other, net | 711 | | | 589 | | | 624 |\n10-K_0000909832-26-000093.txt:L743: | INCOME BEFORE INCOME TAXES | 12,251 | | | 10,818 | | | 9,740 |\n10-K_0000909832-26-000093.txt:L744: | Provision for income taxes | 3,025 | | | 2,719 | | | 2,373 |\n10-K_0000909832-26-000093.txt:L745: | | | | | |\n10-K_0000909832-26-000093.txt:L746: | | | | | |\n10-K_0000909832-26-000093.txt:L747: | NET INCOME | $ | 9,226 | | | $ | 8,099 | | | $ | 7,367 |\n10-K_0000909832-26-000093.txt:L748: |\n10-K_0000909832-26-000093.txt:L749: NET INCOME PER COMMON SHARE:\n10-K_0000909832-26-000093.txt:L750: | | | | |\n10-K_0000909832-26-000093.txt:L751: | Basic | $ | 20.78 | | | $ | 18.24 | | | $ | 16.59 |\n10-K_0000909832-26-000093.txt:L752: | Diluted | $ | 20.76 | | | $ | 18.21 | | | $ | 16.56 |\n10-K_0000909832-26-000093.txt:L753: | Shares used in calculation (000’s) | | | | |\n10-K_0000909832-26-000093.txt:L754: | Basic | 443,953 | | | 443,985 | | | 443,914 |\n10-K_0000909832-26-000093.txt:L755: | Diluted | 444,427 | | | 444,803 | | | 444,759 |\n10-K_0000909832-26-000093.txt:L756: The accompanying notes are an integral part of these consolidated financial statements.\n10-K_0000909832-26-000093.txt:L757: 37\n10-K_0000909832-26-000093.txt:L758: Table of Contents\n10-K_0000909832-26-000093.txt:L759: COSTCO WHOLESALE CORPORATION\n10-K_0000909832-26-000093.txt:L760: CONSOLIDATED STATEMENTS OF COMPREHENSIVE INCOME\n10-K_0000909832-26-000093.txt:L761: (amounts in millions)\n10-K_0000909832-26-000093.txt:L762: | | | | | | | | | | | | | | | | | |\n10-K_0000909832-26-000093.txt:L763: | | 52 Weeks Ended\n10-K_0000909832-26-000093.txt:L764: | | August 30,\n10-K_0000909832-26-000093.txt:L765: 2026 | | August 31,\n10-K_0000909832-26-000093.txt:L766: 2025 | | September 1,\n10-K_0000909832-26-000093.txt:L767: 2024\n10-K_0000909832-26-000093.txt:L768: |\n10-K_0000909832-26-000093.txt:L769: NET INCOME\n10-K_0000909832-26-000093.txt:L770: | $ | 9,226 | | | $ | 8,099 | | | $ | 7,367 |\n10-K_0000909832-26-000093.txt:L771: |\n10-K_0000909832-26-000093.txt:L772: Foreign-currency translation adjustment and other, net\n10-K_0000909832-26-000093.txt:L773: | 150 | | | 58 | | | (23) |\n10-K_0000909832-26-000093.txt:L774: | | | | | |\n10-K_0000909832-26-000093.txt:L775: | | | | | |\n10-K_0000909832-26-000093.txt:L776: |\n10-K_0000909832-26-000093.txt:L777: COMPREHENSIVE INCOME\n10-K_0000909832-26-000093.txt:L778: | $ | 9,376 | | | $ | 8,157 | | | $ | 7,344 |\n10-K_0000909832-26-000093.txt:L779: The accompanying notes are an integral part of these consolidated financial statements.\n10-K_0000909832-26-000093.txt:L780: 38\n10-K_0000909832-26-000093.txt:L781: Table of Contents\n10-K_0000909832-26-000093.txt:L782: COSTCO WHOLESALE CORPORATION\n10-K_0000909832-26-000093.txt:L783: CONSOLIDATED BALANCE SHEETS\n10-K_0000909832-26-000093.txt:L784: (amounts in millions, except par value and share data)\n10-K_0000909832-26-000093.txt:L785: | | | | | | | | | | | |\n10-K_0000909832-26-000093.txt:L786: | | August 30,\n10-K_0000909832-26-000093.txt:L787: 2026 | | August 31,\n10-K_0000909832-26-000093.txt:L788: 2025\n10-K_0000909832-26-000093.txt:L789: | ASSETS | | |\n10-K_0000909832-26-000093.txt:L790: | CURRENT ASSETS | | |\n10-K_0000909832-26-000093.txt:L791: | Cash and cash equivalents | $ | 20,207 | | | $ | 14,161 |\n10-K_0000909832-26-000093.txt:L792: | Short-term investments | 1,094 | | | 1,123 |\n10-K_0000909832-26-000093.txt:L793: | Receivables, net | 3,959 | | | 3,203 |\n10-K_0000909832-26-000093.txt:L794: | Merchandise inventories | 19,324 | | | 18,116 |\n10-K_0000909832-26-000093.txt:L795: | Other current assets | 1,998 | | | 1,777 |\n10-K_0000909832-26-000093.txt:L796: | Total current assets | 46,582 | | | 38,380 |\n10-K_0000909832-26-000093.txt:L797: | OTHER ASSETS | | |\n10-K_0000909832-26-000093.txt:L798: | Property and equipment, net | 35,633 | | | 31,909 |\n10-K_0000909832-26-000093.txt:L799: | Operating lease right-of-use assets | 2,697 | | | 2,725 |\n10-K_0000909832-26-000093.txt:L800: | Other long-term assets | 4,133 | | | 4,085 |\n10-K_0000909832-26-000093.txt:L801: | TOTAL ASSETS | $ | 89,045 | | | $ | 77,099 |\n10-K_0000909832-26-000093.txt:L802: | LIABILITIES AND EQUITY | | |\n10-K_0000909832-26-000093.txt:L803: | CURRENT LIABILITIES | | |",
+    "balance_sheet_excerpt": "10-K_0000909832-26-000093.txt:L783: CONSOLIDATED BALANCE SHEETS\n10-K_0000909832-26-000093.txt:L784: (amounts in millions, except par value and share data)\n10-K_0000909832-26-000093.txt:L785: | | | | | | | | | | | |\n10-K_0000909832-26-000093.txt:L786: | | August 30,\n10-K_0000909832-26-000093.txt:L787: 2026 | | August 31,\n10-K_0000909832-26-000093.txt:L788: 2025\n10-K_0000909832-26-000093.txt:L789: | ASSETS | | |\n10-K_0000909832-26-000093.txt:L790: | CURRENT ASSETS | | |\n10-K_0000909832-26-000093.txt:L791: | Cash and cash equivalents | $ | 20,207 | | | $ | 14,161 |\n10-K_0000909832-26-000093.txt:L792: | Short-term investments | 1,094 | | | 1,123 |\n10-K_0000909832-26-000093.txt:L793: | Receivables, net | 3,959 | | | 3,203 |\n10-K_0000909832-26-000093.txt:L794: | Merchandise inventories | 19,324 | | | 18,116 |\n10-K_0000909832-26-000093.txt:L795: | Other current assets | 1,998 | | | 1,777 |\n10-K_0000909832-26-000093.txt:L796: | Total current assets | 46,582 | | | 38,380 |\n10-K_0000909832-26-000093.txt:L797: | OTHER ASSETS | | |\n10-K_0000909832-26-000093.txt:L798: | Property and equipment, net | 35,633 | | | 31,909 |\n10-K_0000909832-26-000093.txt:L799: | Operating lease right-of-use assets | 2,697 | | | 2,725 |\n10-K_0000909832-26-000093.txt:L800: | Other long-term assets | 4,133 | | | 4,085 |\n10-K_0000909832-26-000093.txt:L801: | TOTAL ASSETS | $ | 89,045 | | | $ | 77,099 |\n10-K_0000909832-26-000093.txt:L802: | LIABILITIES AND EQUITY | | |\n10-K_0000909832-26-000093.txt:L803: | CURRENT LIABILITIES | | |\n10-K_0000909832-26-000093.txt:L804: | Accounts payable | $ | 22,591 | | | $ | 19,783 |\n10-K_0000909832-26-000093.txt:L805: | Accrued salaries and benefits | 5,641 | | | 5,205 |\n10-K_0000909832-26-000093.txt:L806: | Accrued member rewards | 3,037 | | | 2,677 |\n10-K_0000909832-26-000093.txt:L807: | Deferred membership fees | 3,006 | | | 2,854 |\n10-K_0000909832-26-000093.txt:L808: | Current portion of long-term debt | 2,248 | | | 75 |\n10-K_0000909832-26-000093.txt:L809: | Other current liabilities | 7,429 | | | 6,514 |\n10-K_0000909832-26-000093.txt:L810: | Total current liabilities | 43,952 | | | 37,108 |\n10-K_0000909832-26-000093.txt:L811: | OTHER LIABILITIES | | |\n10-K_0000909832-26-000093.txt:L812: | Long-term debt, excluding current portion | 3,914 | | | 5,713 |\n10-K_0000909832-26-000093.txt:L813: | Long-term operating lease liabilities | 2,414 | | | 2,460 |\n10-K_0000909832-26-000093.txt:L814: | Other long-term liabilities | 2,962 | | | 2,654 |\n10-K_0000909832-26-000093.txt:L815: | TOTAL LIABILITIES | 53,242 | | | 47,935 |\n10-K_0000909832-26-000093.txt:L816: | COMMITMENTS AND CONTINGENCIES | | |\n10-K_0000909832-26-000093.txt:L817: | EQUITY | | |\n10-K_0000909832-26-000093.txt:L818: |\n10-K_0000909832-26-000093.txt:L819: Preferred stock $0.005 par value; 100,000,000 shares authorized; no shares issued and outstanding\n10-K_0000909832-26-000093.txt:L820: | — | | | — |\n10-K_0000909832-26-000093.txt:L821: |\n10-K_0000909832-26-000093.txt:L822: Common stock $0.005 par value; 900,000,000 shares authorized; 443,266,000 and 443,237,000 shares issued and outstanding\n10-K_0000909832-26-000093.txt:L823: | 2 | | | 2 |\n10-K_0000909832-26-000093.txt:L824: | Additional paid-in capital | 8,830 | | | 8,282 |\n10-K_0000909832-26-000093.txt:L825: | Accumulated other comprehensive loss | (1,620) | | | (1,770) |\n10-K_0000909832-26-000093.txt:L826: | Retained earnings | 28,591 | | | 22,650 |\n10-K_0000909832-26-000093.txt:L827: | | | |\n10-K_0000909832-26-000093.txt:L828: | | | |\n10-K_0000909832-26-000093.txt:L829: | TOTAL EQUITY | 35,803 | | | 29,164 |\n10-K_0000909832-26-000093.txt:L830: | TOTAL LIABILITIES AND EQUITY | $ | 89,045 | | | $ | 77,099 |\n10-K_0000909832-26-000093.txt:L831: The accompanying notes are an integral part of these consolidated financial statements.\n10-K_0000909832-26-000093.txt:L832: 39\n10-K_0000909832-26-000093.txt:L833: Table of Contents\n10-K_0000909832-26-000093.txt:L834: COSTCO WHOLESALE CORPORATION\n10-K_0000909832-26-000093.txt:L835: CONSOLIDATED STATEMENTS OF EQUITY\n10-K_0000909832-26-000093.txt:L836: (amounts in millions)\n10-K_0000909832-26-000093.txt:L837: | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | |\n10-K_0000909832-26-000093.txt:L838: | | Common Stock | | Additional\n10-K_0000909832-26-000093.txt:L839: Paid-in\n10-K_0000909832-26-000093.txt:L840: Capital | | Accumulated\n10-K_0000909832-26-000093.txt:L841: Other\n10-K_0000909832-26-000093.txt:L842: Comprehensive\n10-K_0000909832-26-000093.txt:L843: Income (Loss) | | Retained\n10-K_0000909832-26-000093.txt:L844: Earnings | | | | | | Total\n10-K_0000909832-26-000093.txt:L845: Equity\n10-K_0000909832-26-000093.txt:L846: | | Shares (000’s) | | Amount |\n10-K_0000909832-26-000093.txt:L847: | BALANCE AT SEPTEMBER 3, 2023 | 442,793 | | | $ | 2 | | | $ | 7,340 | | | $ | (1,805) | | | $ | 19,521 | | | | | | | $ | 25,058 |\n10-K_0000909832-26-000093.txt:L848: | Net income | — | | | — | | | — | | | — | | | 7,367 | | | | | | | 7,367 |\n10-K_0000909832-26-000093.txt:L849: | Foreign-currency translation adjustment and other, net | — | | | — | | | — | | | (23) | | | — | | | | | | | (23) |\n10-K_0000909832-26-000093.txt:L850: | Stock-based compensation | — | | | — | | | 822 | | | — | | | — | | | | | | | 822 |\n10-K_0000909832-26-000093.txt:L851: | Release of vested restricted stock units (RSUs), including tax effects | 1,337 | | | — | | | (315) | | | — | | | — | | | | | | | (315) |\n10-K_0000909832-26-000093.txt:L852: | Repurchases of common stock | (1,004) | | | — | | | (18) | | | — | | | (680) | | | | | | | (698) |\n10-K_0000909832-26-000093.txt:L853: | Cash dividends declared | — | | | — | | | — | | | — | | | (8,589) | | | | | | | (8,589) |\n10-K_0000909832-26-000093.txt:L854: | BALANCE AT SEPTEMBER 1, 2024 | 443,126 | | | 2 | | | 7,829 | | | (1,828) | | | 17,619 | | | | | | | 23,622 |\n10-K_0000909832-26-000093.txt:L855: | Net income | — | | | — | | | — | | | — | | | 8,099 | | | | | | | 8,099 |\n10-K_0000909832-26-000093.txt:L856: | Foreign-currency translation adjustment and other, net | — | | | — | | | — | | | 58 | | | — | | | | | | | 58 |\n10-K_0000909832-26-000093.txt:L857: | Stock-based compensation | — | | | — | | | 864 | | | — | | | — | | | | | | | 864 |\n10-K_0000909832-26-000093.txt:L858: | Release of vested RSUs, including tax effects | 1,054 | | | — | | | (393) | | | — | | | — | | | | | | | (393) |\n10-K_0000909832-26-000093.txt:L859: | Repurchases of common stock | (943) | | | — | | | (18) | | | — | | | (885) | | | | | | | (903) |\n10-K_0000909832-26-000093.txt:L860: | Cash dividend declared | — | | | — | | | — | | | — | | | (2,183) | | | | | | | (2,183) |\n10-K_0000909832-26-000093.txt:L861: | BALANCE AT AUGUST 31, 2025 | 443,237 | | | 2 | | | 8,282 | | | (1,770) | | | 22,650 | | | | | | | 29,164 |\n10-K_0000909832-26-000093.txt:L862: | Net income | — | | | — | | | — | | | — | | | 9,226 | | | | | | | 9,226 |\n10-K_0000909832-26-000093.txt:L863: | Foreign-currency translation adjustment and other, net | — | | | — | | | — | | | 150 | | | — | | | | | | | 150 |\n10-K_0000909832-26-000093.txt:L864: | Stock-based compensation | — | | | — | | | 929 | | | — | | | — | | | | | | | 929 |\n10-K_0000909832-26-000093.txt:L865: | Release of vested RSUs, including tax effects | 920 | | | — | | | (361) | | | — | | | — | | | | | | | (361) |\n10-K_0000909832-26-000093.txt:L866: | Repurchases of common stock | (891) | | | — | | | (20) | | | — | | | (827) | | | | | | | (847) |\n10-K_0000909832-26-000093.txt:L867: | Cash dividend declared | — | | | — | | | — | | | — | | | (2,458) | | | | | | | (2,458) |",
+    "cash_flow_excerpt": "10-K_0000909832-26-000093.txt:L873: CONSOLIDATED STATEMENTS OF CASH FLOWS\n10-K_0000909832-26-000093.txt:L874: (amounts in millions)\n10-K_0000909832-26-000093.txt:L875: | | | | | | | | | | | | | | | | | |\n10-K_0000909832-26-000093.txt:L876: | | 52 Weeks Ended\n10-K_0000909832-26-000093.txt:L877: | | August 30,\n10-K_0000909832-26-000093.txt:L878: 2026 | | August 31,\n10-K_0000909832-26-000093.txt:L879: 2025 | | September 1,\n10-K_0000909832-26-000093.txt:L880: 2024\n10-K_0000909832-26-000093.txt:L881: | CASH FLOWS FROM OPERATING ACTIVITIES | | | | |\n10-K_0000909832-26-000093.txt:L882: | Net income | $ | 9,226 | | | $ | 8,099 | | | $ | 7,367 |\n10-K_0000909832-26-000093.txt:L883: | Adjustments to reconcile net income to net cash provided by operating activities: | | | | |\n10-K_0000909832-26-000093.txt:L884: | Depreciation and amortization | 2,674 | | | 2,426 | | | 2,237 |\n10-K_0000909832-26-000093.txt:L885: | Non-cash lease expense | 318 | | | 303 | | | 315 |\n10-K_0000909832-26-000093.txt:L886: | Stock-based compensation | 924 | | | 860 | | | 818 |\n10-K_0000909832-26-000093.txt:L887: | Deferred income taxes | 306 | | | (108) | | | (60) |\n10-K_0000909832-26-000093.txt:L888: | Other non-cash operating activities, net | 49 | | | (9) | | | 51 |\n10-K_0000909832-26-000093.txt:L889: | Changes in operating assets and liabilities: | | | | |\n10-K_0000909832-26-000093.txt:L890: | Merchandise inventories | (1,153) | | | 559 | | | (2,068) |\n10-K_0000909832-26-000093.txt:L891: | Accounts payable | 2,755 | | | 404 | | | 1,938 |\n10-K_0000909832-26-000093.txt:L892: | Other operating assets and liabilities, net | 718 | | | 801 | | | 741 |\n10-K_0000909832-26-000093.txt:L893: | Net cash provided by operating activities | 15,817 | | | 13,335 | | | 11,339 |\n10-K_0000909832-26-000093.txt:L894: | CASH FLOWS FROM INVESTING ACTIVITIES | | | | |\n10-K_0000909832-26-000093.txt:L895: | Additions to property and equipment | (6,435) | | | (5,498) | | | (4,710) |\n10-K_0000909832-26-000093.txt:L896: | Purchases of short-term investments | (788) | | | (1,028) | | | (1,470) |\n10-K_0000909832-26-000093.txt:L897: | Maturities of short-term investments | 811 | | | 1,141 | | | 1,790 |\n10-K_0000909832-26-000093.txt:L898: | Other investing activities, net | 34 | | | 74 | | | (19) |\n10-K_0000909832-26-000093.txt:L899: | Net cash used in investing activities | (6,378) | | | (5,311) | | | (4,409) |\n10-K_0000909832-26-000093.txt:L900: | CASH FLOWS FROM FINANCING ACTIVITIES | | | | |\n10-K_0000909832-26-000093.txt:L901: | Repayments of short-term borrowings | (577) | | | (862) | | | (920) |\n10-K_0000909832-26-000093.txt:L902: | Proceeds from short-term borrowings | 553 | | | 816 | | | 928 |\n10-K_0000909832-26-000093.txt:L903: | Repayments of long-term debt | (69) | | | (103) | | | (1,077) |\n10-K_0000909832-26-000093.txt:L904: | Proceeds from issuance of long-term debt | 496 | | | — | | | 498 |\n10-K_0000909832-26-000093.txt:L905: | Tax withholdings on stock-based awards | (361) | | | (393) | | | (315) |\n10-K_0000909832-26-000093.txt:L906: | Repurchases of common stock | (848) | | | (903) | | | (700) |\n10-K_0000909832-26-000093.txt:L907: | Cash dividend payments | (2,458) | | | (2,183) | | | (9,041) |\n10-K_0000909832-26-000093.txt:L908: | Financing lease payments and other financing activities, net | (91) | | | (147) | | | (137) |\n10-K_0000909832-26-000093.txt:L909: | Net cash used in financing activities | (3,355) | | | (3,775) | | | (10,764) |\n10-K_0000909832-26-000093.txt:L910: | EFFECT OF EXCHANGE RATE CHANGES ON CASH AND CASH EQUIVALENTS | (38) | | | 6 | | | 40 |\n10-K_0000909832-26-000093.txt:L911: | Net change in cash and cash equivalents | 6,046 | | | 4,255 | | | (3,794) |\n10-K_0000909832-26-000093.txt:L912: | CASH AND CASH EQUIVALENTS BEGINNING OF YEAR | 14,161 | | | 9,906 | | | 13,700 |\n10-K_0000909832-26-000093.txt:L913: | CASH AND CASH EQUIVALENTS END OF YEAR | $ | 20,207 | | | $ | 14,161 | | | $ | 9,906 |\n10-K_0000909832-26-000093.txt:L914: | | | | | |\n10-K_0000909832-26-000093.txt:L915: | SUPPLEMENTAL DISCLOSURE OF CASH FLOW INFORMATION: | | | | |\n10-K_0000909832-26-000093.txt:L916: | Cash paid during the year for: | | | | |\n10-K_0000909832-26-000093.txt:L917: | Interest | $ | 103 | | | $ | 106 | | | $ | 129 |\n10-K_0000909832-26-000093.txt:L918: | Income taxes, net | $ | 2,839 | | | $ | 2,917 | | | $ | 2,319 |\n10-K_0000909832-26-000093.txt:L919: | SUPPLEMENTAL DISCLOSURE OF NON-CASH ACTIVITIES: | | | | |\n10-K_0000909832-26-000093.txt:L920: | | | | | |\n10-K_0000909832-26-000093.txt:L921: | Capital expenditures included in liabilities | $ | 220 | | | $ | 193 | | | $ | 203 |\n10-K_0000909832-26-000093.txt:L922: The accompanying notes are an integral part of these consolidated financial statements.\n10-K_0000909832-26-000093.txt:L923: 41\n10-K_0000909832-26-000093.txt:L924: Table of Contents\n10-K_0000909832-26-000093.txt:L925: COSTCO WHOLESALE CORPORATION\n10-K_0000909832-26-000093.txt:L926: NOTES TO CONSOLIDATED FINANCIAL STATEMENTS\n10-K_0000909832-26-000093.txt:L927: (amounts in millions, except share, per share, and warehouse count data)\n10-K_0000909832-26-000093.txt:L928: Note 1—Summary of Significant Accounting Policies\n10-K_0000909832-26-000093.txt:L929: Description of Business\n10-K_0000909832-26-000093.txt:L930: Costco Wholesale Corporation (Costco or the Company), a Washington corporation, and its subsidiaries operate membership warehouses and e-commerce sites based on the concept that offering members low prices on a limited selection of nationally-branded and private-label products in a wide range of merchandise categories will produce high sales volumes and rapid inventory turnover. At August 30, 2026, Costco operated 939 warehouses worldwide: 647 in the United States (U.S.) located in 47 states, Washington, D.C., and Puerto Rico, 115 in Canada, 43 in Mexico, 37 in Japan, 29 in the U.K., 20 in Korea, 15 in Australia, 14 in Taiwan, seven in China, five in Spain, three in France, two in Sweden, and one each in Iceland and New Zealand. The Company operates e-commerce sites in the U.S., Canada, the U.K., Mexico, Korea, Taiwan, Japan, Australia, and China.\n10-K_0000909832-26-000093.txt:L931: Basis of Presentation\n10-K_0000909832-26-000093.txt:L932: The consolidated financial statements include the accounts of Costco and its wholly-owned subsidiaries. All material inter-company transactions among the Company and its consolidated subsidiaries have been eliminated in consolidation.\n10-K_0000909832-26-000093.txt:L933: Fiscal Year End\n10-K_0000909832-26-000093.txt:L934: The Company operates on a 52/53-week fiscal year basis with the year ending on the Sunday closest to August 31. References to 2026, 2025, and 2024 relate to the 52-week fiscal years ended August 30, 2026, August 31, 2025, and September 1, 2024.\n10-K_0000909832-26-000093.txt:L935: Use of Estimates\n10-K_0000909832-26-000093.txt:L936: The preparation of financial statements in conformity with U.S. GAAP requires management to make estimates and assumptions that affect the reported amounts of assets and liabilities and the disclosure of contingent assets and liabilities at the date of the financial statements and the reported amounts of revenues and expenses during the reporting period. These estimates and assumptions take into account historical and forward-looking factors that the Company believes are reasonable. Actual results could differ from those estimates and assumptions.\n10-K_0000909832-26-000093.txt:L937: Reclassification\n10-K_0000909832-26-000093.txt:L938: Reclassifications were made to the 2025 consolidated balance sheet and the 2025 and 2024 consolidated statements of cash flows to conform with current year presentation.\n10-K_0000909832-26-000093.txt:L939: Cash and Cash Equivalents\n10-K_0000909832-26-000093.txt:L940: The Company considers as cash and cash equivalents all cash on deposit, highly liquid investments with a maturity of three months or less at the date of purchase, and proceeds due from credit and debit card transactions with settlement terms of up to four days. Credit and debit card receivables were $2,842 and $2,670 at the end of 2026 and 2025.\n10-K_0000909832-26-000093.txt:L941: Short-Term Investments\n10-K_0000909832-26-000093.txt:L942: Short-term investments generally consist of debt securities (U.S. government and agency securities), with maturities at the date of purchase of three months to ten years. Investments with maturities beyond five years may be classified, based on the Company’s determination, as short-term based on their highly liquid nature and because they represent the investment of cash that is available for current operations.\n10-K_0000909832-26-000093.txt:L943: 42\n10-K_0000909832-26-000093.txt:L944: Table of Contents\n10-K_0000909832-26-000093.txt:L945: Short-term investments classified as available-for-sale are recorded at fair value using the specific identification method with the unrealized gains and losses reflected in accumulated other comprehensive income (loss) until realized. Realized gains and losses from the sale of available-for-sale securities, if any, are determined on a specific identification basis and are recorded in interest income and other, net in the consolidated statements of income. These available-for-sale investments have a low level of inherent credit risk given they are issued by the U.S. government and agencies. Changes in their fair value are primarily attributable to changes in interest rates and market liquidity. Short-term investments classified as held-to-maturity are financial instruments that the Company has the intent and ability to hold to maturity and are reported net of any related amortization and are not remeasured to fair value on a recurring basis.\n10-K_0000909832-26-000093.txt:L946: The Company periodically evaluates unrealized losses in its investment securities for credit impairment, using both qualitative and quantitative criteria. In the event a security is deemed to be impaired as the result of a credit loss, the Company recognizes the loss in interest income and other, net in the consolidated statements of income.\n10-K_0000909832-26-000093.txt:L947: Fair Value of Financial Instruments\n10-K_0000909832-26-000093.txt:L948: The Company accounts for certain assets and liabilities at fair value. The carrying value of the Company’s financial instruments, including cash and cash equivalents, receivables, and accounts payable, approximate fair value due to their short-term nature or variable interest rates. See Notes 2, 3, and 4 for the carrying value and fair value of the Company’s investments, derivative instruments, and fixed-rate debt.\n10-K_0000909832-26-000093.txt:L949: Fair value is defined as the price that would be received to sell an asset or paid to transfer a liability in an orderly transaction between market participants at the measurement date. Fair value is estimated by applying a fair value hierarchy, which requires maximizing the use of observable inputs when measuring fair value. The three levels of inputs are:\n10-K_0000909832-26-000093.txt:L950: Level 1: Quoted market prices in active markets for identical assets or liabilities.\n10-K_0000909832-26-000093.txt:L951: Level 2: Observable market-based inputs or unobservable inputs that are corroborated by market\n10-K_0000909832-26-000093.txt:L952: data.\n10-K_0000909832-26-000093.txt:L953: Level 3: Significant unobservable inputs that are not corroborated by market data.\n10-K_0000909832-26-000093.txt:L954: The Company’s valuation techniques used to measure the fair value of money market mutual funds, which are included in cash and cash equivalents, are based on quoted market prices, such as quoted net asset values published by the fund as supported in an active market. Valuation methodologies used to measure the fair value of all other non-derivative financial instruments are based on independent external valuation information. The pricing process uses data from a variety of independent external valuation information providers, including trades, bid price or spread, two-sided markets, quotes, benchmark curves including but not limited to treasury benchmarks, Secured Overnight Financing Rate and swap curves, discount rates, and market data feeds. All are observable in the market or can be derived principally from or corroborated by observable market data. The Company reports transfers in and out of Levels 1, 2, and 3, as applicable, using the fair value of the individual securities as of the beginning of the reporting period in which the transfer(s) occurred.\n10-K_0000909832-26-000093.txt:L955: Current financial liabilities have fair values that approximate their carrying values. Long-term financial liabilities include the Company's long-term debt, which are recorded on the balance sheet at issuance price and adjusted for unamortized discounts or premiums and debt issuance costs. Discounts, premiums, and debt issuance costs are amortized to interest expense over the term of the loan. The estimated fair value of the Company's long-term debt is based primarily on reported market values, recently completed market transactions, and estimates based upon interest rates, maturities, and credit.\n10-K_0000909832-26-000093.txt:L956: 43\n10-K_0000909832-26-000093.txt:L957: Table of Contents\n10-K_0000909832-26-000093.txt:L958: Receivables, Net\n10-K_0000909832-26-000093.txt:L959: Receivables consist primarily of vendor, third-party pharmacy, credit card incentive, reinsurance, and other receivables. Vendor receivables include discounts, volume rebates, and a variety of other programs. Balances are generally presented on a gross basis, separate from any related payable due. In certain circumstances, these receivables may be settled against the related payable to that vendor, in which case the receivables are presented on a net basis. Third-party pharmacy receivables generally relate to amounts due from insurance providers. Credit card incentive receivables primarily represent amounts earned under co-branded credit card arrangements. Reinsurance receivables are held by the Company’s wholly-owned captive insurance subsidiary and primarily represent amounts ceded through reinsurance arrangements gross of the amounts assumed under reinsurance, which are presented within other current liabilities in the consolidated balance sheets. Other receivables primarily consist of amounts due from governmental entities, mostly tax-related items.\n10-K_0000909832-26-000093.txt:L960: The valuation allowance related to receivables was immaterial to the Company's consolidated financial statements at the end of 2026 and 2025.\n10-K_0000909832-26-000093.txt:L961: Merchandise Inventories\n10-K_0000909832-26-000093.txt:L962: Merchandise inventories consist of the following:",
+    "release_excerpt": "EX-99.1_0000909832-26-000084.txt:L1: EX-99.1\nEX-99.1_0000909832-26-000084.txt:L2: 2\nEX-99.1_0000909832-26-000084.txt:L3: costex9918-k92426.htm\nEX-99.1_0000909832-26-000084.txt:L4: EX-99.1\nEX-99.1_0000909832-26-000084.txt:L5: Document\nEX-99.1_0000909832-26-000084.txt:L6: Exhibit 99.1\nEX-99.1_0000909832-26-000084.txt:L7: Press Release\nEX-99.1_0000909832-26-000084.txt:L8: | | | | | | | | |\nEX-99.1_0000909832-26-000084.txt:L9: | | |\nEX-99.1_0000909832-26-000084.txt:L10: COSTCO WHOLESALE CORPORATION REPORTS FOURTH QUARTER AND FISCAL YEAR 2026 OPERATING RESULTS\nEX-99.1_0000909832-26-000084.txt:L11: ISSAQUAH, Wash., September 24, 2026 - Costco Wholesale Corporation (“Costco” or the “Company”) (Nasdaq: COST) today announced its operating results for the 16-week fourth quarter and the 52-week fiscal year ended August 30, 2026.\nEX-99.1_0000909832-26-000084.txt:L12: Net sales for the quarter increased 11.2 percent, to $93.9 billion, from $84.4 billion last year. Net sales for the fiscal year increased 10.1 percent, to $297.2 billion, from $269.9 billion last year.\nEX-99.1_0000909832-26-000084.txt:L13: Comparable sales for the fourth quarter and fiscal year were as follows:\nEX-99.1_0000909832-26-000084.txt:L14: | | | | | | | | | | | | | | | | | | | | | | | |\nEX-99.1_0000909832-26-000084.txt:L15: | | 16 Weeks | | 16 Weeks | | 52 Weeks | | 52 Weeks\nEX-99.1_0000909832-26-000084.txt:L16: | | | | Adjusted* | | | | Adjusted*\nEX-99.1_0000909832-26-000084.txt:L17: | U.S. | 10.7% | | 7.2% | | 8.2% | | 6.6%\nEX-99.1_0000909832-26-000084.txt:L18: | Canada | 5.0% | | 4.6% | | 7.8% | | 6.7%\nEX-99.1_0000909832-26-000084.txt:L19: | Other International | 7.0% | | 6.2% | | 9.8% | | 6.5%\nEX-99.1_0000909832-26-000084.txt:L20: | | | | | | | |\nEX-99.1_0000909832-26-000084.txt:L21: | Total Company | 9.4% | | 6.7% | | 8.4% | | 6.6%\nEX-99.1_0000909832-26-000084.txt:L22: | | | | | | | |\nEX-99.1_0000909832-26-000084.txt:L23: | Digitally-Enabled | 19.5% | | 19.8% | | 20.9% | | 20.7%\nEX-99.1_0000909832-26-000084.txt:L24: *Excluding the impacts from changes in gasoline prices and foreign exchange.\nEX-99.1_0000909832-26-000084.txt:L25: Net income for the fourth quarter was $2.998 billion, $6.75 per diluted share, compared to $2.610 billion, $5.87 per diluted share, last year. This year's fourth quarter was positively impacted by a non-recurring benefit of $0.15 per diluted share from IEEPA tariff refunds received in the quarter, less partial reinvestment of those refunds in increased member values. Net income for the fiscal year was $9.226 billion, $20.76 per diluted share, compared to $8.099 billion, $18.21 per diluted share, last year.\nEX-99.1_0000909832-26-000084.txt:L26: Costco currently operates 939 warehouses, including 647 in the United States and Puerto Rico, 115 in Canada, 43 in Mexico, 37 in Japan, 29 in the United Kingdom, 20 in Korea, 15 in Australia, 14 in Taiwan, seven in China, five in Spain, three in France, two in Sweden, and one each in Iceland, and New Zealand. Costco also operates e-commerce sites in the U.S., Canada, the U.K., Mexico, Korea, Taiwan, Japan, Australia, and China.\nEX-99.1_0000909832-26-000084.txt:L27: A conference call to discuss these results is scheduled for 2:00 p.m. (PT) today, September 24, 2026, and will be available via a webcast on investor.costco.com (click “Events & Presentations”).\nEX-99.1_0000909832-26-000084.txt:L28: Press Release\nEX-99.1_0000909832-26-000084.txt:L29: | | | | | | | | |\nEX-99.1_0000909832-26-000084.txt:L30: | | |\nEX-99.1_0000909832-26-000084.txt:L31: Certain statements contained in this document constitute forward-looking statements within the meaning of the Private Securities Litigation Reform Act of 1995. For these purposes, forward-looking statements are statements that address activities, events, conditions or developments that the Company expects or anticipates may occur in the future. In some cases forward-looking statements can be identified because they contain words such as “anticipate,” “believe,” “continue,” “could,” “estimate,” “expect,” “intend,” “likely,” “may,” “might,” “plan,” “potential,” “predict,” “project,” “seek,” “should,” “target,” “will,” “would,” or similar expressions and the negatives of those terms. Such forward-looking statements involve risks and uncertainties that may cause actual events, results or performance to differ materially from those indicated by such statements. These risks and uncertainties include, but are not limited to, domestic and international economic conditions, including exchange rates, inflation or deflation, the effects of competition and regulation, uncertainties in the financial markets, consumer and small business spending patterns and debt levels, breaches of security or privacy of member or business information, conditions affecting the acquisition, development, ownership or use of real estate, capital spending, actions of vendors, rising costs associated with employees (generally including health-care costs and wages), workforce interruptions, energy and certain commodities, geopolitical conditions (including tariffs and global conflicts), the ability to maintain effective internal control over financial reporting, regulatory and other impacts related to environmental and social matters, public-health related factors, and other risks identified from time to time in the Company’s public statements and reports filed with the Securities and Exchange Commission. Forward-looking statements speak only as of the date they are made, and the Company does not undertake to update these statements, except as required by law. Comparable sales and comparable sales excluding impacts from changes in gasoline prices and foreign exchange are intended as supplemental information and are not a substitute for net sales presented in accordance with U.S. GAAP.\nEX-99.1_0000909832-26-000084.txt:L32: CONTACTS: Costco Wholesale Corporation\nEX-99.1_0000909832-26-000084.txt:L33: Josh Dahmen, 425/313-8254\nEX-99.1_0000909832-26-000084.txt:L34: Andrew Yoon, 425/313-6305\nEX-99.1_0000909832-26-000084.txt:L35: Bryan Starnes, 425/427-7403\nEX-99.1_0000909832-26-000084.txt:L36: COST-Earn\nEX-99.1_0000909832-26-000084.txt:L37: Press Release\nEX-99.1_0000909832-26-000084.txt:L38: | | | | | | | | |\nEX-99.1_0000909832-26-000084.txt:L39: | | |\nEX-99.1_0000909832-26-000084.txt:L40: COSTCO WHOLESALE CORPORATION\nEX-99.1_0000909832-26-000084.txt:L41: CONSOLIDATED STATEMENTS OF INCOME\nEX-99.1_0000909832-26-000084.txt:L42: (dollars in millions, except per share data) (unaudited)\nEX-99.1_0000909832-26-000084.txt:L43: | | | | | | | | | | | | | | | | | | | | | | | |\nEX-99.1_0000909832-26-000084.txt:L44: | | 16 Weeks Ended | | 52 Weeks Ended\nEX-99.1_0000909832-26-000084.txt:L45: | | August 30,\nEX-99.1_0000909832-26-000084.txt:L46: 2026 | | August 31,\nEX-99.1_0000909832-26-000084.txt:L47: 2025 | | August 30,\nEX-99.1_0000909832-26-000084.txt:L48: 2026 | | August 31,\nEX-99.1_0000909832-26-000084.txt:L49: 2025\nEX-99.1_0000909832-26-000084.txt:L50: | REVENUE | | | | | | |\nEX-99.1_0000909832-26-000084.txt:L51: | Net sales | $ | 93,873 | | | $ | 84,432 | | | $ | 297,247 | | | $ | 269,912 |\nEX-99.1_0000909832-26-000084.txt:L52: | Membership fees | 1,850 | | | 1,724 | | | 5,907 | | | 5,323 |\nEX-99.1_0000909832-26-000084.txt:L53: | Total revenue | 95,723 | | | 86,156 | | | 303,154 | | | 275,235 |\nEX-99.1_0000909832-26-000084.txt:L54: | OPERATING EXPENSES | | | | | | |\nEX-99.1_0000909832-26-000084.txt:L55: | Merchandise costs | 83,531 | | | 75,037 | | | 264,279 | | | 239,886 |\nEX-99.1_0000909832-26-000084.txt:L56: | Selling, general and administrative | 8,391 | | | 7,778 | | | 27,190 | | | 24,966 |\nEX-99.1_0000909832-26-000084.txt:L57: | Operating income | 3,801 | | | 3,341 | | | 11,685 | | | 10,383 |\nEX-99.1_0000909832-26-000084.txt:L58: | OTHER INCOME (EXPENSE) | | | | | | |\nEX-99.1_0000909832-26-000084.txt:L59: | Interest expense | (45) | | | (46) | | | (145) | | | (154) |\nEX-99.1_0000909832-26-000084.txt:L60: | Interest income and other, net | 253 | | | 215 | | | 711 | | | 589 |\nEX-99.1_0000909832-26-000084.txt:L61: | INCOME BEFORE INCOME TAXES | 4,009 | | | 3,510 | | | 12,251 | | | 10,818 |\nEX-99.1_0000909832-26-000084.txt:L62: | Provision for income taxes | 1,011 | | | 900 | | | 3,025 | | | 2,719 |\nEX-99.1_0000909832-26-000084.txt:L63: | | | | | | | |\nEX-99.1_0000909832-26-000084.txt:L64: | | | | | | | |\nEX-99.1_0000909832-26-000084.txt:L65: | NET INCOME | $ | 2,998 | | | $ | 2,610 | | | $ | 9,226 | | | $ | 8,099 |\nEX-99.1_0000909832-26-000084.txt:L66: | | | | | | | |\nEX-99.1_0000909832-26-000084.txt:L67: |\nEX-99.1_0000909832-26-000084.txt:L68: NET INCOME PER COMMON SHARE:\nEX-99.1_0000909832-26-000084.txt:L69: | | | | | | |\nEX-99.1_0000909832-26-000084.txt:L70: | Basic | $ | 6.75 | | | $ | 5.88 | | | $ | 20.78 | | | $ | 18.24 |\nEX-99.1_0000909832-26-000084.txt:L71: | Diluted | $ | 6.75 | | | $ | 5.87 | | | $ | 20.76 | | | $ | 18.21 |\nEX-99.1_0000909832-26-000084.txt:L72: | | | | | | | |\nEX-99.1_0000909832-26-000084.txt:L73: | Shares used in calculation (000's): | | | | | | |\nEX-99.1_0000909832-26-000084.txt:L74: | Basic | 443,975 | | | 444,007 | | | 443,953 | | | 443,985 |\nEX-99.1_0000909832-26-000084.txt:L75: | Diluted | 444,364 | | | 444,706 | | | 444,427 | | | 444,803 |\nEX-99.1_0000909832-26-000084.txt:L76: | | | | | | | |\nEX-99.1_0000909832-26-000084.txt:L77: | | | | | | | |\nEX-99.1_0000909832-26-000084.txt:L78: Press Release\nEX-99.1_0000909832-26-000084.txt:L79: | | | | | | | | |\nEX-99.1_0000909832-26-000084.txt:L80: | | |\nEX-99.1_0000909832-26-000084.txt:L81: COSTCO WHOLESALE CORPORATION\nEX-99.1_0000909832-26-000084.txt:L82: CONSOLIDATED BALANCE SHEETS\nEX-99.1_0000909832-26-000084.txt:L83: (amounts in millions, except par value and share data) (unaudited)\nEX-99.1_0000909832-26-000084.txt:L84: Subject to Reclassification\nEX-99.1_0000909832-26-000084.txt:L85: | | | | | | | | | | | |\nEX-99.1_0000909832-26-000084.txt:L86: |\nEX-99.1_0000909832-26-000084.txt:L87: | August 30,\nEX-99.1_0000909832-26-000084.txt:L88: 2026 | | August 31,\nEX-99.1_0000909832-26-000084.txt:L89: 2025\nEX-99.1_0000909832-26-000084.txt:L90: | ASSETS | | |\nEX-99.1_0000909832-26-000084.txt:L91: | CURRENT ASSETS | | |\nEX-99.1_0000909832-26-000084.txt:L92: | Cash and cash equivalents | $ | 20,207 | | | $ | 14,161 |\nEX-99.1_0000909832-26-000084.txt:L93: | Short-term investments | 1,094 | | | 1,123 |\nEX-99.1_0000909832-26-000084.txt:L94: | Receivables, net | 3,959 | | | 3,203 |\nEX-99.1_0000909832-26-000084.txt:L95: | Merchandise inventories | 19,324 | | | 18,116 |\nEX-99.1_0000909832-26-000084.txt:L96: | Other current assets | 1,998 | | | 1,777 |\nEX-99.1_0000909832-26-000084.txt:L97: | Total current assets | 46,582 | | | 38,380 |\nEX-99.1_0000909832-26-000084.txt:L98: | OTHER ASSETS | | |\nEX-99.1_0000909832-26-000084.txt:L99: | Property and equipment, net | 35,633 | | | 31,909 |\nEX-99.1_0000909832-26-000084.txt:L100: | Operating lease right-of-use assets | 2,697 | | | 2,725 |\nEX-99.1_0000909832-26-000084.txt:L101: | Other long-term assets | 4,133 | | | 4,085 |\nEX-99.1_0000909832-26-000084.txt:L102: | TOTAL ASSETS | $ | 89,045 | | | $ | 77,099 |\nEX-99.1_0000909832-26-000084.txt:L103: | LIABILITIES AND EQUITY | | |\nEX-99.1_0000909832-26-000084.txt:L104: | CURRENT LIABILITIES | | |\nEX-99.1_0000909832-26-000084.txt:L105: | Accounts payable | $ | 22,591 | | | $ | 19,783 |\nEX-99.1_0000909832-26-000084.txt:L106: | Accrued salaries and benefits | 5,641 | | | 5,205 |\nEX-99.1_0000909832-26-000084.txt:L107: | Accrued member rewards | 3,037 | | | 2,677 |\nEX-99.1_0000909832-26-000084.txt:L108: | Deferred membership fees | 3,006 | | | 2,854 |\nEX-99.1_0000909832-26-000084.txt:L109: | Current portion of long-term debt | 2,248 | | | 75 |\nEX-99.1_0000909832-26-000084.txt:L110: | Other current liabilities | 7,429 | | | 6,514 |\nEX-99.1_0000909832-26-000084.txt:L111: | Total current liabilities | 43,952 | | | 37,108 |\nEX-99.1_0000909832-26-000084.txt:L112: | OTHER LIABILITIES | | |\nEX-99.1_0000909832-26-000084.txt:L113: | Long-term debt, excluding current portion | 3,914 | | | 5,713 |\nEX-99.1_0000909832-26-000084.txt:L114: | Long-term operating lease liabilities | 2,414 | | | 2,460 |\nEX-99.1_0000909832-26-000084.txt:L115: | Other long-term liabilities | 2,962 | | | 2,654 |\nEX-99.1_0000909832-26-000084.txt:L116: | TOTAL LIABILITIES | 53,242 | | | 47,935 |\nEX-99.1_0000909832-26-000084.txt:L117: | COMMITMENTS AND CONTINGENCIES | | |\nEX-99.1_0000909832-26-000084.txt:L118: | EQUITY | | |\nEX-99.1_0000909832-26-000084.txt:L119: |\nEX-99.1_0000909832-26-000084.txt:L120: Preferred stock $0.005 par value; 100,000,000 shares authorized; no shares issued and outstanding\nEX-99.1_0000909832-26-000084.txt:L121: | — | | | — |\nEX-99.1_0000909832-26-000084.txt:L122: |\nEX-99.1_0000909832-26-000084.txt:L123: Common stock $0.005 par value; 900,000,000 shares authorized; 443,266,000 and 443,237,000 shares issued and outstanding\nEX-99.1_0000909832-26-000084.txt:L124: | 2 | | | 2 |\nEX-99.1_0000909832-26-000084.txt:L125: | Additional paid-in capital | 8,830 | | | 8,282 |\nEX-99.1_0000909832-26-000084.txt:L126: | Accumulated other comprehensive loss | (1,620) | | | (1,770) |\nEX-99.1_0000909832-26-000084.txt:L127: | Retained earnings | 28,591 | | | 22,650 |\nEX-99.1_0000909832-26-000084.txt:L128: | | | |\nEX-99.1_0000909832-26-000084.txt:L129: | | | |\nEX-99.1_0000909832-26-000084.txt:L130: | TOTAL EQUITY | 35,803 | | | 29,164 |\nEX-99.1_0000909832-26-000084.txt:L131: | TOTAL LIABILITIES AND EQUITY | $ | 89,045 | | | $ | 77,099 |\nEX-99.1_0000909832-26-000084.txt:L132: Press Release\nEX-99.1_0000909832-26-000084.txt:L133: | | | | | | | | |\nEX-99.1_0000909832-26-000084.txt:L134: | | |\nEX-99.1_0000909832-26-000084.txt:L135: COSTCO WHOLESALE CORPORATION\nEX-99.1_0000909832-26-000084.txt:L136: CONDENSED CONSOLIDATED STATEMENTS OF CASH FLOWS\nEX-99.1_0000909832-26-000084.txt:L137: (amounts in millions) (unaudited)\nEX-99.1_0000909832-26-000084.txt:L138: Subject to Reclassification\nEX-99.1_0000909832-26-000084.txt:L139: | | | | | | | | | | | |\nEX-99.1_0000909832-26-000084.txt:L140: | | 52 Weeks Ended",
+    "peers": {
+      "WMT": {
+        "company": {
+          "ticker": "WMT",
+          "cik": 104169,
+          "name": "Walmart Inc."
+        },
+        "fiscal_year_end": "2026-01-31",
+        "10_K_accession": "0000104169-26-000055",
+        "revenue": {
+          "value": 713163000000,
+          "unit": "USD",
+          "tag": "Revenues",
+          "period_start": "2025-02-01",
+          "period_end": "2026-01-31",
+          "accession": "0000104169-26-000055",
+          "filed": "2026-03-13"
+        },
+        "operating_income": {
+          "value": 29825000000,
+          "unit": "USD",
+          "tag": "OperatingIncomeLoss",
+          "period_start": "2025-02-01",
+          "period_end": "2026-01-31",
+          "accession": "0000104169-26-000055",
+          "filed": "2026-03-13"
+        },
+        "operating_margin_calculated_in_code": {
+          "value": 0.041820733829433104,
+          "arithmetic": "29825000000 / 713163000000"
+        }
+      },
+      "TGT": {
+        "company": {
+          "ticker": "TGT",
+          "cik": 27419,
+          "name": "TARGET CORP"
+        },
+        "fiscal_year_end": "2026-01-31",
+        "10_K_accession": "0000027419-26-000016",
+        "revenue": {
+          "value": 104780000000,
+          "unit": "USD",
+          "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+          "period_start": "2025-02-02",
+          "period_end": "2026-01-31",
+          "accession": "0000027419-26-000016",
+          "filed": "2026-03-11"
+        },
+        "operating_income": {
+          "value": 5117000000,
+          "unit": "USD",
+          "tag": "OperatingIncomeLoss",
+          "period_start": "2025-02-02",
+          "period_end": "2026-01-31",
+          "accession": "0000027419-26-000016",
+          "filed": "2026-03-11"
+        },
+        "operating_margin_calculated_in_code": {
+          "value": 0.048835655659477,
+          "arithmetic": "5117000000 / 104780000000"
+        }
+      },
+      "BJ": {
+        "company": {
+          "ticker": "BJ",
+          "cik": 1531152,
+          "name": "BJ's Wholesale Club Holdings, Inc."
+        },
+        "fiscal_year_end": "2026-01-31",
+        "10_K_accession": "0001531152-26-000007",
+        "revenue": {
+          "value": 21457274000,
+          "unit": "USD",
+          "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+          "period_start": "2025-02-02",
+          "period_end": "2026-01-31",
+          "accession": "0001531152-26-000007",
+          "filed": "2026-03-12"
+        },
+        "operating_income": {
+          "value": 816604000,
+          "unit": "USD",
+          "tag": "OperatingIncomeLoss",
+          "period_start": "2025-02-02",
+          "period_end": "2026-01-31",
+          "accession": "0001531152-26-000007",
+          "filed": "2026-03-12"
+        },
+        "operating_margin_calculated_in_code": {
+          "value": 0.03805721080879146,
+          "arithmetic": "816604000 / 21457274000"
+        }
+      }
+    },
+    "core_claims_display": [
+      {
+        "number": 1,
+        "claim": "Annual total revenue",
+        "display": "$303.154 billion",
+        "source": "10-K 0000909832-26-000093, fiscal years ended 2026-08-30 and 2025-08-31; total revenue XBRL"
+      },
+      {
+        "number": 2,
+        "claim": "Annual revenue growth",
+        "display": "10.14%",
+        "source": "10-K 0000909832-26-000093, fiscal years ended 2026-08-30 and 2025-08-31; (current / prior - 1) × 100"
+      },
+      {
+        "number": 3,
+        "claim": "Annual operating income and margin",
+        "display": "$11.685 billion",
+        "source": "10-K 0000909832-26-000093, fiscal years ended 2026-08-30 and 2025-08-31; operating income XBRL",
+        "operating_margin": "3.85%"
+      },
+      {
+        "number": 4,
+        "claim": "Annual net income attributable to company",
+        "display": "$9.226 billion",
+        "source": "10-K 0000909832-26-000093, fiscal years ended 2026-08-30 and 2025-08-31; net income XBRL"
+      },
+      {
+        "number": 5,
+        "claim": "Annual GAAP diluted EPS",
+        "display": "$20.76 per diluted share",
+        "source": "10-K 0000909832-26-000093, fiscal years ended 2026-08-30 and 2025-08-31; EarningsPerShareDiluted"
+      },
+      {
+        "number": 6,
+        "claim": "Return on average equity",
+        "display": "28.40%",
+        "source": "10-K 0000909832-26-000093, fiscal years ended 2026-08-30 and 2025-08-31; net income / average equity × 100"
+      },
+      {
+        "number": 7,
+        "claim": "Debt to equity including current debt",
+        "display": "17.21%",
+        "source": "10-K 0000909832-26-000093, fiscal years ended 2026-08-30 and 2025-08-31; debt including current portion / equity × 100"
+      },
+      {
+        "number": 8,
+        "claim": "Free cash flow",
+        "display": "$9.382 billion",
+        "source": "10-K 0000909832-26-000093, fiscal years ended 2026-08-30 and 2025-08-31; operating cash flow - property additions"
+      },
+      {
+        "number": 9,
+        "claim": "Latest-quarter total revenue",
+        "display": "$95.723 billion",
+        "source": "EX-99.1 0000909832-26-000084; line 53; quarter revenue"
+      },
+      {
+        "number": 10,
+        "claim": "Latest-quarter year-over-year total revenue growth",
+        "display": "11.10%",
+        "source": "EX-99.1 0000909832-26-000084; line 53; (current / prior - 1) × 100"
+      },
+      {
+        "number": 11,
+        "claim": "Latest-quarter GAAP diluted EPS",
+        "display": "$6.75 per diluted share",
+        "source": "EX-99.1 0000909832-26-000084; release narrative, latest quarter"
+      }
+    ]
+  },
+  "expected_output": "Markdown with assigned headings and sourced numbers"
+}

@@ -1,0 +1,104 @@
+{
+  "checks": [
+    {
+      "id": "1",
+      "supported": true,
+      "reason": "10-K L733–735 show net sales plus membership fees totaling $303.154 billion for FY2026 and $275.235 billion for FY2025, consistent with the saved periods and total-revenue definition."
+    },
+    {
+      "id": "2",
+      "supported": true,
+      "reason": "10-K L735 supplies FY2026 and FY2025 total revenue of $303.154 billion and $275.235 billion. The code-confirmed growth calculation rounds to 10.14%."
+    },
+    {
+      "id": "3",
+      "supported": true,
+      "reason": "10-K L739 and L735 support FY2026 operating income of $11.685 billion and total revenue of $303.154 billion. The code-confirmed operating margin rounds to 3.85%."
+    },
+    {
+      "id": "4",
+      "supported": true,
+      "reason": "10-K L747 reports FY2026 net income of $9.226 billion. L932 confirms consolidation of Costco and its wholly owned subsidiaries, consistent with the stated definition."
+    },
+    {
+      "id": "5",
+      "supported": false,
+      "reason": "10-K L749–752 report FY2026 diluted net income per common share of $20.76, not $21.76. The report's purported quotation of L752 is incorrect, consistent with the code failure."
+    },
+    {
+      "id": "6",
+      "supported": true,
+      "reason": "10-K L747 supports FY2026 net income of $9.226 billion, and L829 supports equity of $35.803 billion and $29.164 billion at the two fiscal year-ends. Using average equity produces the code-confirmed 28.40%."
+    },
+    {
+      "id": "7",
+      "supported": true,
+      "reason": "10-K L808, L812 and L829 support current debt of $2.248 billion, noncurrent debt of $3.914 billion and equity of $35.803 billion at August 30, 2026. The stated debt definition excludes lease liabilities and yields the code-confirmed 17.21%."
+    },
+    {
+      "id": "8",
+      "supported": true,
+      "reason": "10-K L893 and L895 support FY2026 operating cash flow of $15.817 billion and property and equipment additions of $6.435 billion. Their difference is $9.382 billion under the stated calculated free-cash-flow definition."
+    },
+    {
+      "id": "9",
+      "supported": true,
+      "reason": "EX-99.1 L42–53 identify amounts in millions and the 16-week period ended August 30, 2026. L53 reports total revenue of $95.723 billion, including net sales and membership fees."
+    },
+    {
+      "id": "10",
+      "supported": true,
+      "reason": "EX-99.1 L44–53 identify corresponding 16-week periods ended August 30, 2026 and August 31, 2025, with total revenue of $95.723 billion and $86.156 billion. The code-confirmed year-over-year growth rounds to 11.10%."
+    },
+    {
+      "id": "11",
+      "supported": true,
+      "reason": "EX-99.1 L25 and L68–71 support reported fourth-quarter diluted EPS of $6.75 for the 16 weeks ended August 30, 2026, including rather than excluding the nonrecurring benefit."
+    },
+    {
+      "id": "peer-WMT-revenue",
+      "supported": true,
+      "reason": "Saved Revenues facts from Walmart's cited 10-K support $713.163 billion for February 1, 2025 through January 31, 2026, matching the reported total revenue and period."
+    },
+    {
+      "id": "peer-WMT-operating income",
+      "supported": true,
+      "reason": "Saved OperatingIncomeLoss facts from Walmart's cited 10-K support $29.825 billion for the year ended January 31, 2026."
+    },
+    {
+      "id": "peer-WMT-operating margin",
+      "supported": true,
+      "reason": "Saved facts support operating income of $29.825 billion and total revenue of $713.163 billion for Walmart's stated fiscal year. The code-confirmed operating margin rounds to 4.18%."
+    },
+    {
+      "id": "peer-TGT-revenue",
+      "supported": true,
+      "reason": "Saved revenue facts from Target's cited 10-K support $104.780 billion for February 2, 2025 through January 31, 2026, matching the reported total revenue and period."
+    },
+    {
+      "id": "peer-TGT-operating income",
+      "supported": true,
+      "reason": "Saved OperatingIncomeLoss facts from Target's cited 10-K support $5.117 billion for the year ended January 31, 2026."
+    },
+    {
+      "id": "peer-TGT-operating margin",
+      "supported": true,
+      "reason": "Saved facts support operating income of $5.117 billion and total revenue of $104.780 billion for Target's stated fiscal year. The code-confirmed operating margin rounds to 4.88%."
+    },
+    {
+      "id": "peer-BJ-revenue",
+      "supported": true,
+      "reason": "Saved revenue facts from BJ's cited 10-K support $21.457274 billion for February 2, 2025 through January 31, 2026, matching the reported total revenue and period."
+    },
+    {
+      "id": "peer-BJ-operating income",
+      "supported": true,
+      "reason": "Saved OperatingIncomeLoss facts from BJ's cited 10-K support $0.816604 billion for the year ended January 31, 2026."
+    },
+    {
+      "id": "peer-BJ-operating margin",
+      "supported": true,
+      "reason": "Saved facts support operating income of $0.816604 billion and total revenue of $21.457274 billion for BJ's stated fiscal year. The code-confirmed operating margin rounds to 3.81%."
+    }
+  ]
+}

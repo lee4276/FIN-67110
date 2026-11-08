@@ -1,0 +1,109 @@
+{
+  "checks": [
+    {
+      "id": "1",
+      "supported": true,
+      "reason": "10-K L733–735 distinguish net sales and membership fees and report total revenue of $303.154 billion and $275.235 billion; saved facts confirm FY2026 and FY2025."
+    },
+    {
+      "id": "2",
+      "supported": true,
+      "reason": "10-K L735 supplies FY2026 and FY2025 total revenue of $303.154 billion and $275.235 billion. The code-confirmed growth rounds to 10.14%."
+    },
+    {
+      "id": "3",
+      "supported": true,
+      "reason": "10-K L739 reports FY2026 operating income of $11.685 billion, and L735 reports total revenue of $303.154 billion. Their ratio rounds to the stated 3.85% operating margin."
+    },
+    {
+      "id": "4",
+      "supported": true,
+      "reason": "10-K L747 reports FY2026 net income of $9.226 billion. L932 confirms consolidation of Costco and its wholly owned subsidiaries, supporting the stated definition."
+    },
+    {
+      "id": "5",
+      "supported": true,
+      "reason": "10-K L749–752 identify net income per common share and report FY2026 diluted EPS of $20.76, consistent with the saved period and concept."
+    },
+    {
+      "id": "6",
+      "supported": true,
+      "reason": "10-K L747 and L829 supply net income of $9.226 billion and current/prior equity of $35.803 billion and $29.164 billion. Saved facts confirm the dates; net income divided by average equity rounds to 28.40%."
+    },
+    {
+      "id": "7",
+      "supported": true,
+      "reason": "10-K L808, L812 and L829 report current debt of $2.248 billion, noncurrent debt of $3.914 billion and equity of $35.803 billion at 2026-08-30. These support 17.21% under the stated debt definition excluding leases."
+    },
+    {
+      "id": "8",
+      "supported": true,
+      "reason": "10-K L893 and L895 report FY2026 operating cash flow of $15.817 billion and property additions of $6.435 billion. Their difference is $9.382 billion under the stated calculated free-cash-flow definition."
+    },
+    {
+      "id": "9",
+      "supported": true,
+      "reason": "EX-99.1 L42–53 identify amounts in millions and the 16 weeks ended 2026-08-30, reporting total revenue of $95.723 billion including net sales and membership fees."
+    },
+    {
+      "id": "10",
+      "supported": true,
+      "reason": "EX-99.1 L44–53 identify corresponding 16-week periods ended 2026-08-30 and 2025-08-31 and total revenue of $95.723 billion and $86.156 billion. The code-confirmed year-over-year growth rounds to 11.10%."
+    },
+    {
+      "id": "11",
+      "supported": true,
+      "reason": "EX-99.1 L25 and L68–71 report fourth-quarter diluted EPS of $6.75. The reported figure includes the disclosed $0.15 nonrecurring benefit, consistent with the unadjusted GAAP definition."
+    },
+    {
+      "id": "prose-L52",
+      "supported": false,
+      "reason": "The code check fails: growth from $275.235 billion to $303.154 billion is 10.143695%, not 14.14%. The supplied revenue evidence does not support the prose percentage."
+    },
+    {
+      "id": "peer-WMT-revenue",
+      "supported": true,
+      "reason": "Supplied saved facts for 10-K 0000104169-26-000055 report Revenues of $713.163 billion for 2025-02-01 through 2026-01-31, matching the stated number, period and definition."
+    },
+    {
+      "id": "peer-WMT-operating income",
+      "supported": true,
+      "reason": "Supplied saved facts for 10-K 0000104169-26-000055 report OperatingIncomeLoss of $29.825 billion for 2025-02-01 through 2026-01-31."
+    },
+    {
+      "id": "peer-WMT-operating margin",
+      "supported": true,
+      "reason": "Saved fiscal-year revenue of $713.163 billion and operating income of $29.825 billion support the code-confirmed 4.18% operating margin for the year ended 2026-01-31."
+    },
+    {
+      "id": "peer-TGT-revenue",
+      "supported": true,
+      "reason": "Supplied saved facts for 10-K 0000027419-26-000016 report total revenue of $104.780 billion for 2025-02-02 through 2026-01-31 under the cited revenue concept."
+    },
+    {
+      "id": "peer-TGT-operating income",
+      "supported": true,
+      "reason": "Supplied saved facts for 10-K 0000027419-26-000016 report OperatingIncomeLoss of $5.117 billion for 2025-02-02 through 2026-01-31."
+    },
+    {
+      "id": "peer-TGT-operating margin",
+      "supported": true,
+      "reason": "Saved fiscal-year revenue of $104.780 billion and operating income of $5.117 billion support the code-confirmed 4.88% operating margin for the year ended 2026-01-31."
+    },
+    {
+      "id": "peer-BJ-revenue",
+      "supported": true,
+      "reason": "Supplied saved facts for 10-K 0001531152-26-000007 report total revenue of $21.457274 billion for 2025-02-02 through 2026-01-31 under the cited revenue concept."
+    },
+    {
+      "id": "peer-BJ-operating income",
+      "supported": true,
+      "reason": "Supplied saved facts for 10-K 0001531152-26-000007 report OperatingIncomeLoss of $0.816604 billion for 2025-02-02 through 2026-01-31."
+    },
+    {
+      "id": "peer-BJ-operating margin",
+      "supported": true,
+      "reason": "Saved fiscal-year revenue of $21.457274 billion and operating income of $0.816604 billion support the code-confirmed 3.81% operating margin for the year ended 2026-01-31."
+    }
+  ]
+}

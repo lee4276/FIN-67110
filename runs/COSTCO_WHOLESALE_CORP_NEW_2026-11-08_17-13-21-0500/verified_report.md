@@ -1,0 +1,102 @@
+Filings read: 10-K 0000909832-26-000093; 10-Q 0000909832-26-000051; 8-K 0000909832-26-000084; earnings release EX-99.1 from 8-K 0000909832-26-000084
+
+## Automated verifier marks
+
+Semantic line review: completed for model-returned cited lines; inspect the verifier node output.
+
+| Claim | Mark | Code check and evidence | Correction from saved evidence |
+|---|---|---|---|
+| 1 | correct | Value matches saved facts or release after report rounding; 10-K 0000909832-26-000093, fiscal years ended 2026-08-30 and 2025-08-31; total revenue XBRL |  |
+| 2 | correct | Value matches saved facts or release after report rounding; 10-K 0000909832-26-000093, fiscal years ended 2026-08-30 and 2025-08-31; (current / prior - 1) × 100 |  |
+| 3 | correct | Value matches saved facts or release after report rounding; 10-K 0000909832-26-000093, fiscal years ended 2026-08-30 and 2025-08-31; operating income XBRL |  |
+| 4 | correct | Value matches saved facts or release after report rounding; 10-K 0000909832-26-000093, fiscal years ended 2026-08-30 and 2025-08-31; net income XBRL |  |
+| 5 | correct | Value matches saved facts or release after report rounding; 10-K 0000909832-26-000093, fiscal years ended 2026-08-30 and 2025-08-31; EarningsPerShareDiluted |  |
+| 6 | correct | Value matches saved facts or release after report rounding; 10-K 0000909832-26-000093, fiscal years ended 2026-08-30 and 2025-08-31; net income / average equity × 100 |  |
+| 7 | correct | Value matches saved facts or release after report rounding; 10-K 0000909832-26-000093, fiscal years ended 2026-08-30 and 2025-08-31; debt including current portion / equity × 100 |  |
+| 8 | correct | Value matches saved facts or release after report rounding; 10-K 0000909832-26-000093, fiscal years ended 2026-08-30 and 2025-08-31; operating cash flow - property additions |  |
+| 9 | correct | Value matches saved facts or release after report rounding; EX-99.1 0000909832-26-000084; line 53; quarter revenue |  |
+| 10 | correct | Value matches saved facts or release after report rounding; EX-99.1 0000909832-26-000084; line 53; (current / prior - 1) × 100 |  |
+| 11 | correct | Value matches saved facts or release after report rounding; EX-99.1 0000909832-26-000084; release narrative, latest quarter |  |
+| peer-WMT-revenue | correct | Peer 10-K 0000104169-26-000055, year ended 2026-01-31; revenue Revenues, operating income OperatingIncomeLoss;  |  |
+| peer-WMT-operating income | correct | Peer 10-K 0000104169-26-000055, year ended 2026-01-31; revenue Revenues, operating income OperatingIncomeLoss;  |  |
+| peer-WMT-operating margin | correct | Peer 10-K 0000104169-26-000055, year ended 2026-01-31; revenue Revenues, operating income OperatingIncomeLoss;  |  |
+| peer-TGT-revenue | correct | Peer 10-K 0000027419-26-000016, year ended 2026-01-31; revenue RevenueFromContractWithCustomerExcludingAssessedTax, operating income OperatingIncomeLoss;  |  |
+| peer-TGT-operating income | correct | Peer 10-K 0000027419-26-000016, year ended 2026-01-31; revenue RevenueFromContractWithCustomerExcludingAssessedTax, operating income OperatingIncomeLoss;  |  |
+| peer-TGT-operating margin | correct | Peer 10-K 0000027419-26-000016, year ended 2026-01-31; revenue RevenueFromContractWithCustomerExcludingAssessedTax, operating income OperatingIncomeLoss;  |  |
+| peer-BJ-revenue | correct | Peer 10-K 0001531152-26-000007, year ended 2026-01-31; revenue RevenueFromContractWithCustomerExcludingAssessedTax, operating income OperatingIncomeLoss;  |  |
+| peer-BJ-operating income | correct | Peer 10-K 0001531152-26-000007, year ended 2026-01-31; revenue RevenueFromContractWithCustomerExcludingAssessedTax, operating income OperatingIncomeLoss;  |  |
+| peer-BJ-operating margin | correct | Peer 10-K 0001531152-26-000007, year ended 2026-01-31; revenue RevenueFromContractWithCustomerExcludingAssessedTax, operating income OperatingIncomeLoss;  |  |
+
+Human audit and partner checks: pending; no human mark is implied.
+
+Run time: 2026-11-08T17:13:21.206152-05:00
+
+## Overview
+
+Costco’s business model combines membership warehouses and e-commerce with low prices, a restricted assortment, and efficient distribution. The intended economic engine is high volume and rapid inventory turnover rather than high merchandise margins: management describes “low prices on a limited selection” producing “high sales volumes and rapid inventory turnover,” enabling profitability at “significantly lower gross margins” than most retailers. Membership adds recurring fee revenue and reinforces loyalty (“provide continuing fee revenue”). [10-K_0000909832-26-000093.txt:L188, L481]
+
+**Fiscal 2026 results showed growth in both merchandise sales and membership revenue.** Annual net sales reached $297.2 billion, up 10.1% (“increased 10.1 percent, to $297.2 billion”); membership fee revenue increased 11%, supported by sign-ups, fee increases, and Executive upgrades (“driven by new member sign-ups, membership fee increases, and upgrades”). Annual net income was $9.226 billion, or $20.76 per diluted share (“$9.226 billion, $20.76 per diluted share”). [EX-99.1_0000909832-26-000084.txt:L12, L25; 10-K_0000909832-26-000093.txt:L493]
+
+The fourth quarter maintained sales momentum, with net sales increasing 11.2% to $93.9 billion (“increased 11.2 percent, to $93.9 billion”). Earnings quality warrants some qualification: quarterly diluted EPS included a non-recurring $0.15 benefit from tariff refunds after partial reinvestment in member value (“non-recurring benefit of $0.15 per diluted share”). [EX-99.1_0000909832-26-000084.txt:L12, L25]
+
+**Consistency check:** Net sales and total revenue are distinct measures. The annual and quarterly net-sales figures above do not conflict with the total-revenue figures in the core-claims table, which include membership fees. Likewise, net-sales growth and total-revenue growth use different revenue definitions. Latest-quarter GAAP diluted EPS retains the disclosed non-recurring benefit; it is not adjusted EPS. [10-K, accession 0000909832-26-000093, L733–735; 8-K Exhibit 99.1, accession 0000909832-26-000084, L12, L25, L44–53, L71]
+
+## Market Positioning and Growth Outlook
+
+- **Competitive differentiation rests on value and operating efficiency, not an uncontested market.** Costco limits its core warehouse assortment to fewer than 4,000 active SKUs (“less than 4,000”), while management believes Kirkland Signature helps differentiate merchandise and “generally earn higher margins.” However, the company describes its industry as “highly competitive,” naming Walmart, Target, Kroger, Amazon, Sam’s Club, and BJ’s among competitors. These disclosures support a differentiated value proposition, but not a quantified market-share advantage. [10-K_0000909832-26-000093.txt:L195, L247, L249]
+
+- **Membership loyalty supports the outlook, but retention requires continued attention.** Year-end renewal rates were 92.3% in the U.S. and Canada and 89.8% worldwide (“92.3%…and 89.8% worldwide”). Executive members generated approximately 75.2% of worldwide net sales (“approximately 75.2%”). Management nevertheless notes that online-originated memberships “renew at a slightly lower rate on average,” making acquisition quality and retention important alongside membership growth. [10-K_0000909832-26-000093.txt:L222–L223, L481]
+
+- **Comparable sales and digital activity are identifiable growth drivers.** Fiscal 2026 comparable sales benefited from a 5% increase in average ticket and 3% growth in shopping frequency (“5% in average ticket and 3% in shopping frequency”). The earnings release reported annual digitally-enabled comparable growth of 20.9%, or 20.7% excluding gasoline-price and foreign-exchange effects (“20.9%…20.7%”). These are historical momentum indicators, not forward guidance. [10-K_0000909832-26-000093.txt:L536; EX-99.1_0000909832-26-000084.txt:L15–L24]
+
+- **Warehouse expansion provides another catalyst, with execution constraints.** Costco added 25 net new warehouses in 2026 (“25 net new warehouses”). Management expects relatively higher square-footage growth in many international markets to continue, but acknowledges “lower initial operating profitability” and potential “cannibalization” from expansion. [10-K_0000909832-26-000093.txt:L490, L480]
+
+- **Key risks are concentration and sensitivity to costs.** U.S. and Canadian operations represented 86% of net sales and 83% of operating income (“86% and 83%”). Management warns that its “very low margins” mean modest merchandise-cost or SG&A changes can substantially affect net income; higher tariffs are also “more likely to adversely impact” results. [10-K_0000909832-26-000093.txt:L281, L482, L478]
+
+## Valuation Insights
+
+| # | Claim and report figure with arithmetic | Period and definition | Filing evidence |
+|---|---|---|---|
+| 1 | **Annual total revenue: $303.154 billion**, versus prior-year revenue of **$275.235 billion**. | FY2026 ended 2026-08-30; prior FY2025 ended 2025-08-31. Total revenue includes net sales and membership fees. | 10-K, accession **0000909832-26-000093**, L733–735; XBRL `RevenueFromContractWithCustomerExcludingAssessedTax`, periods ended 2026-08-30 and 2025-08-31. |
+| 2 | **Annual revenue growth: 10.14%**. Arithmetic: ($303.154 billion ÷ $275.235 billion − 1) × 100 = 10.14%. | FY2026 ended 2026-08-30 versus FY2025 ended 2025-08-31; year-over-year **total-revenue** growth. | 10-K, accession **0000909832-26-000093**, L735; `RevenueFromContractWithCustomerExcludingAssessedTax`, periods ended 2026-08-30 and 2025-08-31. |
+| 3 | **Annual operating income and margin: $11.685 billion and 3.85%**. Margin arithmetic: $11.685 billion ÷ $303.154 billion × 100 = 3.85%. | FY2026 ended 2026-08-30; operating margin is operating income divided by total revenue. | 10-K, accession **0000909832-26-000093**, L739 and L735; `OperatingIncomeLoss` and `RevenueFromContractWithCustomerExcludingAssessedTax`, period ended 2026-08-30. |
+| 4 | **Annual net income attributable to company: $9.226 billion**. | FY2026 ended 2026-08-30; consolidated GAAP net income of Costco and its wholly owned subsidiaries. | 10-K, accession **0000909832-26-000093**, L747 and consolidation policy L932; `NetIncomeLoss`, period ended 2026-08-30. |
+| 5 | **Annual GAAP diluted EPS: $20.76 per diluted share**. | FY2026 ended 2026-08-30; reported GAAP diluted earnings per common share. | 10-K, accession **0000909832-26-000093**, L752; `EarningsPerShareDiluted`, period ended 2026-08-30. |
+| 6 | **Return on average equity: 28.40%**. Arithmetic: $9.226 billion ÷ [($35.803 billion + $29.164 billion) ÷ 2] × 100 = 28.40%. | FY2026 ended 2026-08-30; annual net income divided by average equity at 2026-08-30 and 2025-08-31, rather than ending equity alone. | 10-K, accession **0000909832-26-000093**, L747 and L829; `NetIncomeLoss` for the year ended 2026-08-30 and `StockholdersEquity` at 2026-08-30 and 2025-08-31. |
+| 7 | **Debt to equity including current debt: 17.21%**. Arithmetic: ($3.914 billion + $2.248 billion) ÷ $35.803 billion × 100 = 17.21%. | At 2026-08-30; noncurrent long-term debt plus its current portion, divided by ending stockholders’ equity. This definition excludes lease liabilities. | 10-K, accession **0000909832-26-000093**, L812, L808 and L829; `LongTermDebtNoncurrent`, `LongTermDebtCurrent` and `StockholdersEquity`, all at 2026-08-30. |
+| 8 | **Free cash flow: $9.382 billion**. Arithmetic: $15.817 billion − $6.435 billion = $9.382 billion. | FY2026 ended 2026-08-30; calculated operating cash flow less additions to property and equipment, not a separately reported GAAP subtotal. | 10-K, accession **0000909832-26-000093**, L893 and L895; `NetCashProvidedByUsedInOperatingActivities` and `PaymentsToAcquirePropertyPlantAndEquipment`, period ended 2026-08-30. |
+| 9 | **Latest-quarter total revenue: $95.723 billion**. | Fiscal Q4 FY2026, 16 weeks ended 2026-08-30; total revenue includes net sales and membership fees, not net sales alone. | 8-K Exhibit 99.1, accession **0000909832-26-000084**, L44–53, “Total revenue,” quarter ended 2026-08-30. |
+| 10 | **Latest-quarter year-over-year total revenue growth: 11.10%**. Arithmetic: ($95.723 billion ÷ $86.156 billion − 1) × 100 = 11.10%. | Fiscal Q4 FY2026 ended 2026-08-30 versus fiscal Q4 FY2025 ended 2025-08-31; total-revenue growth across the comparable 16-week quarters. | 8-K Exhibit 99.1, accession **0000909832-26-000084**, L44–53, “Total revenue,” quarters ended 2026-08-30 and 2025-08-31. |
+| 11 | **Latest-quarter GAAP diluted EPS: $6.75 per diluted share**. | Fiscal Q4 FY2026, 16 weeks ended 2026-08-30; reported GAAP diluted EPS, without adjusting out non-recurring benefits. | 8-K Exhibit 99.1, accession **0000909832-26-000084**, L25 and L71, “Diluted,” quarter ended 2026-08-30. |
+
+**Historical P/E:** **43.18×**, calculated as the supplied **$896.48 price dated 2026-09-24** (`price_and_date`) ÷ **$20.76 FY2026 GAAP diluted EPS**, for the year ended 2026-08-30 (10-K, accession **0000909832-26-000093**, L752). This is a historical earnings multiple, not a forward valuation or price target.
+
+**Peer operating comparison.** Fiscal years can differ across companies; the peers’ own annual periods below are not aligned with Costco’s August fiscal year-end. Operating margin equals operating income divided by total revenue.
+
+| Peer | Own fiscal-year period | Total revenue | Operating income | Operating margin and arithmetic | Filing evidence |
+|---|---|---|---|---|---|
+| Walmart (WMT) | 2025-02-01–2026-01-31 | $713.163 billion | $29.825 billion | **4.18%** = $29.825 billion ÷ $713.163 billion × 100 | 10-K accession **0000104169-26-000055**; `Revenues` and `OperatingIncomeLoss`, year ended 2026-01-31. |
+| Target (TGT) | 2025-02-02–2026-01-31 | $104.780 billion | $5.117 billion | **4.88%** = $5.117 billion ÷ $104.780 billion × 100 | 10-K accession **0000027419-26-000016**; `RevenueFromContractWithCustomerExcludingAssessedTax` and `OperatingIncomeLoss`, year ended 2026-01-31. |
+| BJ’s Wholesale Club (BJ) | 2025-02-02–2026-01-31 | $21.457274 billion | $0.816604 billion | **3.8057%** = $0.816604 billion ÷ $21.457274 billion × 100 | 10-K accession **0001531152-26-000007**; `RevenueFromContractWithCustomerExcludingAssessedTax` and `OperatingIncomeLoss`, year ended 2026-01-31. |
+
+Costco’s operating margin sits below Walmart’s and Target’s and slightly above BJ’s on these respective fiscal-year figures. Its cash generation and return on average equity support the operating case, but peer valuation multiples and forward earnings estimates are **not established** by the assigned evidence; a relative valuation premium or discount therefore cannot be established.
+
+## Future Developments and Strategic Recommendations
+
+1. **Prioritize member value and retention over short-term margin maximization.** This recommendation aligns with management’s emphasis on “pricing authority” and its statement that membership growth, Executive penetration, and renewals “materially influences our profitability.” Evaluate future fee growth alongside renewal performance rather than in isolation. [10-K_0000909832-26-000093.txt:L474, L481]
+
+2. **Expand Kirkland Signature while protecting quality and availability.** Management expects to “increase the sales penetration” of private-label items, but warns that lost member confidence could adversely affect “sales and gross margin results.” The strategic opportunity therefore depends on preserving trust, not merely increasing private-label mix. [10-K_0000909832-26-000093.txt:L249, L291]
+
+3. **Apply disciplined return thresholds to warehouse and digital investment.** New warehouses can dilute nearby locations, while supply-chain investments “might not provide the anticipated benefits or desired rates of return.” Digital investment should also emphasize resilience: Costco reports “substantial investments in technology and IT projects,” with delays or failures potentially harmful to operations. [10-K_0000909832-26-000093.txt:L284, L288, L300]
+
+4. **Treat tariff refunds as a value-reinvestment opportunity, not a recurring earnings driver.** Costco received $155 million in additional refunds after fiscal year-end and intends to invest the majority in member value (“received $155”; “invest the majority…in increased value for the member”; MD&A amounts are in millions). This supports monitoring pricing and member response rather than extrapolating refund-related earnings benefits. [10-K_0000909832-26-000093.txt:L470, L501]
+
+**Evidence limitation:** The supplied excerpts are insufficient to establish a numerical forward earnings forecast, a future warehouse-opening target, quantified market share, or a valuation-based investment recommendation. The Hold recommendation below reflects this evidence limit rather than a finding of fair value.
+
+## Investment Recommendation
+
+**Hold.** The thesis-driving figure is Costco’s **43.18× historical P/E**, calculated from the supplied share price and reported annual GAAP diluted EPS. Without forward earnings estimates or peer valuation multiples, this figure alone cannot establish whether the shares are attractively valued or overpriced. [Financial Analyst, “Historical P/E”; supplied `price_and_date`; 10-K accession 0000909832-26-000093, L752]
+
+The operating evidence is favorable: membership provides continuing fee revenue, and Costco’s low-price, high-volume model supports customer loyalty. However, management also warns that very low margins leave earnings sensitive to merchandise costs, operating expenses, and tariffs. [10-K_0000909832-26-000093.txt:L188, L481, L281, L478]
+
+These strengths support the business case, but they do not establish stock-price upside. The assigned evidence lacks the forward earnings and comparative valuation support needed for a defensible Buy or Sell recommendation; **Hold reflects that evidence limit**, rather than a conclusion that the shares are fairly valued.

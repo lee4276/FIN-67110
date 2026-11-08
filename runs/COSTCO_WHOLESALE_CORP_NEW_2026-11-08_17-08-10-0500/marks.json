@@ -1,0 +1,299 @@
+{
+  "type": "automated",
+  "semantic_status": "completed for model-returned cited lines; inspect the verifier node output",
+  "marks": [
+    {
+      "id": "1",
+      "mark": "correct",
+      "reported": "303.154",
+      "expected": "303.154",
+      "unit": "billion USD",
+      "reason": "Value matches saved facts or release after report rounding",
+      "evidence": "10-K 0000909832-26-000093, fiscal years ended 2026-08-30 and 2025-08-31; total revenue XBRL",
+      "arithmetic": "",
+      "correction": null,
+      "semantic_check": {
+        "id": "1",
+        "supported": true,
+        "reason": "10-K L733–735 identify total revenue as net sales plus membership fees and show $303.154 billion and $275.235 billion, matching the saved FY2026 and FY2025 facts."
+      }
+    },
+    {
+      "id": "2",
+      "mark": "correct",
+      "reported": "10.14",
+      "expected": "10.14369538757788798662960743",
+      "unit": "%",
+      "reason": "Value matches saved facts or release after report rounding",
+      "evidence": "10-K 0000909832-26-000093, fiscal years ended 2026-08-30 and 2025-08-31; (current / prior - 1) × 100",
+      "arithmetic": "Quoted-input arithmetic gives 10.14369538757788798662960740%",
+      "correction": null,
+      "semantic_check": {
+        "id": "2",
+        "supported": true,
+        "reason": "10-K L735 supports both annual total-revenue inputs. The supplied code check confirms FY2026 growth of 10.14% after rounding."
+      }
+    },
+    {
+      "id": "3",
+      "mark": "correct",
+      "reported": "11.685",
+      "expected": "11.685",
+      "unit": "billion USD",
+      "reason": "Value matches saved facts or release after report rounding",
+      "evidence": "10-K 0000909832-26-000093, fiscal years ended 2026-08-30 and 2025-08-31; operating income XBRL",
+      "arithmetic": "Quoted-input arithmetic gives 3.854476602650797944279145253%",
+      "correction": null,
+      "semantic_check": {
+        "id": "3",
+        "supported": true,
+        "reason": "10-K L739 and L735 show FY2026 operating income of $11.685 billion and total revenue of $303.154 billion. The code-checked operating margin rounds to 3.85%."
+      }
+    },
+    {
+      "id": "4",
+      "mark": "correct",
+      "reported": "9.226",
+      "expected": "9.226",
+      "unit": "billion USD",
+      "reason": "Value matches saved facts or release after report rounding",
+      "evidence": "10-K 0000909832-26-000093, fiscal years ended 2026-08-30 and 2025-08-31; net income XBRL",
+      "arithmetic": "",
+      "correction": null,
+      "semantic_check": {
+        "id": "4",
+        "supported": true,
+        "reason": "10-K L747 reports FY2026 net income of $9.226 billion. L932 establishes consolidation of Costco and its wholly owned subsidiaries, supporting the stated company net-income definition."
+      }
+    },
+    {
+      "id": "5",
+      "mark": "correct",
+      "reported": "20.76",
+      "expected": "20.76",
+      "unit": "USD per diluted share",
+      "reason": "Value matches saved facts or release after report rounding",
+      "evidence": "10-K 0000909832-26-000093, fiscal years ended 2026-08-30 and 2025-08-31; EarningsPerShareDiluted",
+      "arithmetic": "",
+      "correction": null,
+      "semantic_check": {
+        "id": "5",
+        "supported": true,
+        "reason": "10-K L749–752 label net income per common share and report diluted EPS of $20.76, matching the saved FY2026 diluted-EPS fact."
+      }
+    },
+    {
+      "id": "6",
+      "mark": "correct",
+      "reported": "28.40",
+      "expected": "28.40211184139640124986531624",
+      "unit": "%",
+      "reason": "Value matches saved facts or release after report rounding",
+      "evidence": "10-K 0000909832-26-000093, fiscal years ended 2026-08-30 and 2025-08-31; net income / average equity × 100",
+      "arithmetic": "Quoted-input arithmetic gives 28.40211184139640124986531624%",
+      "correction": null,
+      "semantic_check": {
+        "id": "6",
+        "supported": true,
+        "reason": "10-K L747 and L829 support FY2026 net income of $9.226 billion and current and prior ending equity of $35.803 billion and $29.164 billion. The code check confirms 28.40% using average equity."
+      }
+    },
+    {
+      "id": "7",
+      "mark": "correct",
+      "reported": "17.21",
+      "expected": "17.21084825293969779068793118",
+      "unit": "%",
+      "reason": "Value matches saved facts or release after report rounding",
+      "evidence": "10-K 0000909832-26-000093, fiscal years ended 2026-08-30 and 2025-08-31; debt including current portion / equity × 100",
+      "arithmetic": "Quoted-input arithmetic gives 17.21084825293969779068793118%",
+      "correction": null,
+      "semantic_check": {
+        "id": "7",
+        "supported": true,
+        "reason": "10-K L808, L812 and L829 support current debt of $2.248 billion, noncurrent debt of $3.914 billion and ending equity of $35.803 billion at August 30, 2026. The code check confirms 17.21% under the stated lease-excluding definition."
+      }
+    },
+    {
+      "id": "8",
+      "mark": "correct",
+      "reported": "9.382",
+      "expected": "9.382",
+      "unit": "billion USD",
+      "reason": "Value matches saved facts or release after report rounding",
+      "evidence": "10-K 0000909832-26-000093, fiscal years ended 2026-08-30 and 2025-08-31; operating cash flow - property additions",
+      "arithmetic": "Quoted-input arithmetic gives 9.382 billion USD",
+      "correction": null,
+      "semantic_check": {
+        "id": "8",
+        "supported": true,
+        "reason": "10-K L893 and L895 support FY2026 operating cash flow of $15.817 billion and property-and-equipment additions of $6.435 billion. Their code-checked difference is $9.382 billion under the stated calculated free-cash-flow definition."
+      }
+    },
+    {
+      "id": "9",
+      "mark": "correct",
+      "reported": "95.723",
+      "expected": "95.723",
+      "unit": "billion USD",
+      "reason": "Value matches saved facts or release after report rounding",
+      "evidence": "EX-99.1 0000909832-26-000084; line 53; quarter revenue",
+      "arithmetic": "",
+      "correction": null,
+      "semantic_check": {
+        "id": "9",
+        "supported": true,
+        "reason": "Exhibit 99.1 L42–53 establish million-dollar units, the 16-week period ended August 30, 2026, and total revenue of $95.723 billion, including net sales and membership fees."
+      }
+    },
+    {
+      "id": "10",
+      "mark": "correct",
+      "reported": "11.10",
+      "expected": "11.10427596452945819211662566",
+      "unit": "%",
+      "reason": "Value matches saved facts or release after report rounding",
+      "evidence": "EX-99.1 0000909832-26-000084; line 53; (current / prior - 1) × 100",
+      "arithmetic": "Quoted-input arithmetic gives 11.10427596452945819211662570%",
+      "correction": null,
+      "semantic_check": {
+        "id": "10",
+        "supported": true,
+        "reason": "Exhibit 99.1 L44–53 identify corresponding 16-week quarters ended August 30, 2026 and August 31, 2025, with total revenue of $95.723 billion and $86.156 billion. The code check confirms growth rounding to 11.10%."
+      }
+    },
+    {
+      "id": "11",
+      "mark": "correct",
+      "reported": "6.75",
+      "expected": "6.75",
+      "unit": "USD per diluted share",
+      "reason": "Value matches saved facts or release after report rounding",
+      "evidence": "EX-99.1 0000909832-26-000084; release narrative, latest quarter",
+      "arithmetic": "",
+      "correction": null,
+      "semantic_check": {
+        "id": "11",
+        "supported": true,
+        "reason": "Exhibit 99.1 L25 and L68–71 report fourth-quarter diluted EPS of $6.75; L44–49 establish the 16-week period ended August 30, 2026. The reported figure includes, rather than removes, the disclosed nonrecurring benefit."
+      }
+    },
+    {
+      "id": "peer-WMT-revenue",
+      "mark": "correct",
+      "reported": "713.163",
+      "expected": "713.163",
+      "reason": "Peer 10-K 0000104169-26-000055, year ended 2026-01-31; revenue Revenues, operating income OperatingIncomeLoss",
+      "correction": null,
+      "semantic_check": {
+        "id": "peer-WMT-revenue",
+        "supported": true,
+        "reason": "Saved Revenues facts from Walmart 10-K 0000104169-26-000055 support $713.163 billion for February 1, 2025 through January 31, 2026; the code check matches."
+      }
+    },
+    {
+      "id": "peer-WMT-operating income",
+      "mark": "correct",
+      "reported": "29.825",
+      "expected": "29.825",
+      "reason": "Peer 10-K 0000104169-26-000055, year ended 2026-01-31; revenue Revenues, operating income OperatingIncomeLoss",
+      "correction": null,
+      "semantic_check": {
+        "id": "peer-WMT-operating income",
+        "supported": true,
+        "reason": "Saved OperatingIncomeLoss facts from Walmart 10-K 0000104169-26-000055 support $29.825 billion for February 1, 2025 through January 31, 2026; the code check matches."
+      }
+    },
+    {
+      "id": "peer-WMT-operating margin",
+      "mark": "correct",
+      "reported": "4.18",
+      "expected": "4.182073382943310295121872559",
+      "reason": "Peer 10-K 0000104169-26-000055, year ended 2026-01-31; revenue Revenues, operating income OperatingIncomeLoss",
+      "correction": null,
+      "semantic_check": {
+        "id": "peer-WMT-operating margin",
+        "supported": true,
+        "reason": "Saved Walmart facts support operating income and total revenue for the stated fiscal year. The supplied code check confirms their ratio rounds to 4.18%."
+      }
+    },
+    {
+      "id": "peer-TGT-revenue",
+      "mark": "correct",
+      "reported": "104.780",
+      "expected": "104.78",
+      "reason": "Peer 10-K 0000027419-26-000016, year ended 2026-01-31; revenue RevenueFromContractWithCustomerExcludingAssessedTax, operating income OperatingIncomeLoss",
+      "correction": null,
+      "semantic_check": {
+        "id": "peer-TGT-revenue",
+        "supported": true,
+        "reason": "Saved total-revenue facts from Target 10-K 0000027419-26-000016 support $104.780 billion for February 2, 2025 through January 31, 2026; the code check matches."
+      }
+    },
+    {
+      "id": "peer-TGT-operating income",
+      "mark": "correct",
+      "reported": "5.117",
+      "expected": "5.117",
+      "reason": "Peer 10-K 0000027419-26-000016, year ended 2026-01-31; revenue RevenueFromContractWithCustomerExcludingAssessedTax, operating income OperatingIncomeLoss",
+      "correction": null,
+      "semantic_check": {
+        "id": "peer-TGT-operating income",
+        "supported": true,
+        "reason": "Saved OperatingIncomeLoss facts from Target 10-K 0000027419-26-000016 support $5.117 billion for February 2, 2025 through January 31, 2026; the code check matches."
+      }
+    },
+    {
+      "id": "peer-TGT-operating margin",
+      "mark": "correct",
+      "reported": "4.88",
+      "expected": "4.883565565947699942737163581",
+      "reason": "Peer 10-K 0000027419-26-000016, year ended 2026-01-31; revenue RevenueFromContractWithCustomerExcludingAssessedTax, operating income OperatingIncomeLoss",
+      "correction": null,
+      "semantic_check": {
+        "id": "peer-TGT-operating margin",
+        "supported": true,
+        "reason": "Saved Target facts support operating income and total revenue for the stated fiscal year. The supplied code check confirms their ratio rounds to 4.88%."
+      }
+    },
+    {
+      "id": "peer-BJ-revenue",
+      "mark": "correct",
+      "reported": "21.457274",
+      "expected": "21.457274",
+      "reason": "Peer 10-K 0001531152-26-000007, year ended 2026-01-31; revenue RevenueFromContractWithCustomerExcludingAssessedTax, operating income OperatingIncomeLoss",
+      "correction": null,
+      "semantic_check": {
+        "id": "peer-BJ-revenue",
+        "supported": true,
+        "reason": "Saved total-revenue facts from BJ’s 10-K 0001531152-26-000007 support $21.457274 billion for February 2, 2025 through January 31, 2026; the code check matches."
+      }
+    },
+    {
+      "id": "peer-BJ-operating income",
+      "mark": "correct",
+      "reported": "0.816604",
+      "expected": "0.816604",
+      "reason": "Peer 10-K 0001531152-26-000007, year ended 2026-01-31; revenue RevenueFromContractWithCustomerExcludingAssessedTax, operating income OperatingIncomeLoss",
+      "correction": null,
+      "semantic_check": {
+        "id": "peer-BJ-operating income",
+        "supported": true,
+        "reason": "Saved OperatingIncomeLoss facts from BJ’s 10-K 0001531152-26-000007 support $0.816604 billion for February 2, 2025 through January 31, 2026; the code check matches."
+      }
+    },
+    {
+      "id": "peer-BJ-operating margin",
+      "mark": "correct",
+      "reported": "3.81",
+      "expected": "3.805721080879146158081404003",
+      "reason": "Peer 10-K 0001531152-26-000007, year ended 2026-01-31; revenue RevenueFromContractWithCustomerExcludingAssessedTax, operating income OperatingIncomeLoss",
+      "correction": null,
+      "semantic_check": {
+        "id": "peer-BJ-operating margin",
+        "supported": true,
+        "reason": "Saved BJ’s facts support operating income and total revenue for the stated fiscal year. The supplied code check confirms their ratio rounds to 3.81%."
+      }
+    }
+  ]
+}

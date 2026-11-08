@@ -1,0 +1,5 @@
+## Investment Recommendation
+
+**Hold.** The thesis-driving figure is Costco’s **43.18× historical P/E**, calculated using the supplied dated share price and reported annual GAAP diluted EPS (Financial Analyst; price source: assigned `price_and_date`; EPS source: `10-K_0000909832-26-000093`, L752). This provides valuation context, but does not establish that the shares are attractively or excessively priced.
+
+Costco’s recurring membership revenue and strong member loyalty support business quality (`10-K_0000909832-26-000093.txt:L481`, L223). However, the supplied evidence establishes neither peer valuation multiples nor forward earnings estimates sufficient to judge whether the historical multiple is justified. Strong operating results alone therefore do not support a Buy, while the multiple alone does not support a Sell. **Hold reflects this valuation-evidence limit, rather than a negative assessment of the business.**

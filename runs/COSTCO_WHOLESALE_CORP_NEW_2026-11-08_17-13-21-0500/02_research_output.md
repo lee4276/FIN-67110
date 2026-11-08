@@ -1,0 +1,31 @@
+## Overview
+
+Costco’s business model combines membership warehouses and e-commerce with low prices, a restricted assortment, and efficient distribution. The intended economic engine is high volume and rapid inventory turnover rather than high merchandise margins: management describes “low prices on a limited selection” producing “high sales volumes and rapid inventory turnover,” enabling profitability at “significantly lower gross margins” than most retailers. Membership adds recurring fee revenue and reinforces loyalty (“provide continuing fee revenue”). [10-K_0000909832-26-000093.txt:L188, L481]
+
+**Fiscal 2026 results showed growth in both merchandise sales and membership revenue.** Annual net sales reached $297.2 billion, up 10.1% (“increased 10.1 percent, to $297.2 billion”); membership fee revenue increased 11%, supported by sign-ups, fee increases, and Executive upgrades (“driven by new member sign-ups, membership fee increases, and upgrades”). Annual net income was $9.226 billion, or $20.76 per diluted share (“$9.226 billion, $20.76 per diluted share”). [EX-99.1_0000909832-26-000084.txt:L12, L25; 10-K_0000909832-26-000093.txt:L493]
+
+The fourth quarter maintained sales momentum, with net sales increasing 11.2% to $93.9 billion (“increased 11.2 percent, to $93.9 billion”). Earnings quality warrants some qualification: quarterly diluted EPS included a non-recurring $0.15 benefit from tariff refunds after partial reinvestment in member value (“non-recurring benefit of $0.15 per diluted share”). [EX-99.1_0000909832-26-000084.txt:L12, L25]
+
+## Market Positioning and Growth Outlook
+
+- **Competitive differentiation rests on value and operating efficiency, not an uncontested market.** Costco limits its core warehouse assortment to fewer than 4,000 active SKUs (“less than 4,000”), while management believes Kirkland Signature helps differentiate merchandise and “generally earn higher margins.” However, the company describes its industry as “highly competitive,” naming Walmart, Target, Kroger, Amazon, Sam’s Club, and BJ’s among competitors. These disclosures support a differentiated value proposition, but not a quantified market-share advantage. [10-K_0000909832-26-000093.txt:L195, L247, L249]
+
+- **Membership loyalty supports the outlook, but retention requires continued attention.** Year-end renewal rates were 92.3% in the U.S. and Canada and 89.8% worldwide (“92.3%…and 89.8% worldwide”). Executive members generated approximately 75.2% of worldwide net sales (“approximately 75.2%”). Management nevertheless notes that online-originated memberships “renew at a slightly lower rate on average,” making acquisition quality and retention important alongside membership growth. [10-K_0000909832-26-000093.txt:L222–L223, L481]
+
+- **Comparable sales and digital activity are identifiable growth drivers.** Fiscal 2026 comparable sales benefited from a 5% increase in average ticket and 3% growth in shopping frequency (“5% in average ticket and 3% in shopping frequency”). The earnings release reported annual digitally-enabled comparable growth of 20.9%, or 20.7% excluding gasoline-price and foreign-exchange effects (“20.9%…20.7%”). These are historical momentum indicators, not forward guidance. [10-K_0000909832-26-000093.txt:L536; EX-99.1_0000909832-26-000084.txt:L15–L24]
+
+- **Warehouse expansion provides another catalyst, with execution constraints.** Costco added 25 net new warehouses in 2026 (“25 net new warehouses”). Management expects relatively higher square-footage growth in many international markets to continue, but acknowledges “lower initial operating profitability” and potential “cannibalization” from expansion. [10-K_0000909832-26-000093.txt:L490, L480]
+
+- **Key risks are concentration and sensitivity to costs.** U.S. and Canadian operations represented 86% of net sales and 83% of operating income (“86% and 83%”). Management warns that its “very low margins” mean modest merchandise-cost or SG&A changes can substantially affect net income; higher tariffs are also “more likely to adversely impact” results. [10-K_0000909832-26-000093.txt:L281, L482, L478]
+
+## Future Developments and Strategic Recommendations
+
+1. **Prioritize member value and retention over short-term margin maximization.** This recommendation aligns with management’s emphasis on “pricing authority” and its statement that membership growth, Executive penetration, and renewals “materially influences our profitability.” Evaluate future fee growth alongside renewal performance rather than in isolation. [10-K_0000909832-26-000093.txt:L474, L481]
+
+2. **Expand Kirkland Signature while protecting quality and availability.** Management expects to “increase the sales penetration” of private-label items, but warns that lost member confidence could adversely affect “sales and gross margin results.” The strategic opportunity therefore depends on preserving trust, not merely increasing private-label mix. [10-K_0000909832-26-000093.txt:L249, L291]
+
+3. **Apply disciplined return thresholds to warehouse and digital investment.** New warehouses can dilute nearby locations, while supply-chain investments “might not provide the anticipated benefits or desired rates of return.” Digital investment should also emphasize resilience: Costco reports “substantial investments in technology and IT projects,” with delays or failures potentially harmful to operations. [10-K_0000909832-26-000093.txt:L284, L288, L300]
+
+4. **Treat tariff refunds as a value-reinvestment opportunity, not a recurring earnings driver.** Costco received $155 million in additional refunds after fiscal year-end and intends to invest the majority in member value (“received $155”; “invest the majority…in increased value for the member”; MD&A amounts are in millions). This supports monitoring pricing and member response rather than extrapolating refund-related earnings benefits. [10-K_0000909832-26-000093.txt:L470, L501]
+
+**Evidence limitation:** The supplied excerpts are insufficient to establish a numerical forward earnings forecast, a future warehouse-opening target, quantified market share, or a valuation-based investment recommendation.

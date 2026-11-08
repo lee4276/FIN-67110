@@ -1,0 +1,104 @@
+{
+  "checks": [
+    {
+      "id": "1",
+      "supported": true,
+      "reason": "10-K L733–735 identify total revenue as net sales plus membership fees and show $303.154 billion and $275.235 billion, matching the saved FY2026 and FY2025 facts."
+    },
+    {
+      "id": "2",
+      "supported": true,
+      "reason": "10-K L735 supports both annual total-revenue inputs. The supplied code check confirms FY2026 growth of 10.14% after rounding."
+    },
+    {
+      "id": "3",
+      "supported": true,
+      "reason": "10-K L739 and L735 show FY2026 operating income of $11.685 billion and total revenue of $303.154 billion. The code-checked operating margin rounds to 3.85%."
+    },
+    {
+      "id": "4",
+      "supported": true,
+      "reason": "10-K L747 reports FY2026 net income of $9.226 billion. L932 establishes consolidation of Costco and its wholly owned subsidiaries, supporting the stated company net-income definition."
+    },
+    {
+      "id": "5",
+      "supported": true,
+      "reason": "10-K L749–752 label net income per common share and report diluted EPS of $20.76, matching the saved FY2026 diluted-EPS fact."
+    },
+    {
+      "id": "6",
+      "supported": true,
+      "reason": "10-K L747 and L829 support FY2026 net income of $9.226 billion and current and prior ending equity of $35.803 billion and $29.164 billion. The code check confirms 28.40% using average equity."
+    },
+    {
+      "id": "7",
+      "supported": true,
+      "reason": "10-K L808, L812 and L829 support current debt of $2.248 billion, noncurrent debt of $3.914 billion and ending equity of $35.803 billion at August 30, 2026. The code check confirms 17.21% under the stated lease-excluding definition."
+    },
+    {
+      "id": "8",
+      "supported": true,
+      "reason": "10-K L893 and L895 support FY2026 operating cash flow of $15.817 billion and property-and-equipment additions of $6.435 billion. Their code-checked difference is $9.382 billion under the stated calculated free-cash-flow definition."
+    },
+    {
+      "id": "9",
+      "supported": true,
+      "reason": "Exhibit 99.1 L42–53 establish million-dollar units, the 16-week period ended August 30, 2026, and total revenue of $95.723 billion, including net sales and membership fees."
+    },
+    {
+      "id": "10",
+      "supported": true,
+      "reason": "Exhibit 99.1 L44–53 identify corresponding 16-week quarters ended August 30, 2026 and August 31, 2025, with total revenue of $95.723 billion and $86.156 billion. The code check confirms growth rounding to 11.10%."
+    },
+    {
+      "id": "11",
+      "supported": true,
+      "reason": "Exhibit 99.1 L25 and L68–71 report fourth-quarter diluted EPS of $6.75; L44–49 establish the 16-week period ended August 30, 2026. The reported figure includes, rather than removes, the disclosed nonrecurring benefit."
+    },
+    {
+      "id": "peer-WMT-revenue",
+      "supported": true,
+      "reason": "Saved Revenues facts from Walmart 10-K 0000104169-26-000055 support $713.163 billion for February 1, 2025 through January 31, 2026; the code check matches."
+    },
+    {
+      "id": "peer-WMT-operating income",
+      "supported": true,
+      "reason": "Saved OperatingIncomeLoss facts from Walmart 10-K 0000104169-26-000055 support $29.825 billion for February 1, 2025 through January 31, 2026; the code check matches."
+    },
+    {
+      "id": "peer-WMT-operating margin",
+      "supported": true,
+      "reason": "Saved Walmart facts support operating income and total revenue for the stated fiscal year. The supplied code check confirms their ratio rounds to 4.18%."
+    },
+    {
+      "id": "peer-TGT-revenue",
+      "supported": true,
+      "reason": "Saved total-revenue facts from Target 10-K 0000027419-26-000016 support $104.780 billion for February 2, 2025 through January 31, 2026; the code check matches."
+    },
+    {
+      "id": "peer-TGT-operating income",
+      "supported": true,
+      "reason": "Saved OperatingIncomeLoss facts from Target 10-K 0000027419-26-000016 support $5.117 billion for February 2, 2025 through January 31, 2026; the code check matches."
+    },
+    {
+      "id": "peer-TGT-operating margin",
+      "supported": true,
+      "reason": "Saved Target facts support operating income and total revenue for the stated fiscal year. The supplied code check confirms their ratio rounds to 4.88%."
+    },
+    {
+      "id": "peer-BJ-revenue",
+      "supported": true,
+      "reason": "Saved total-revenue facts from BJ’s 10-K 0001531152-26-000007 support $21.457274 billion for February 2, 2025 through January 31, 2026; the code check matches."
+    },
+    {
+      "id": "peer-BJ-operating income",
+      "supported": true,
+      "reason": "Saved OperatingIncomeLoss facts from BJ’s 10-K 0001531152-26-000007 support $0.816604 billion for February 2, 2025 through January 31, 2026; the code check matches."
+    },
+    {
+      "id": "peer-BJ-operating margin",
+      "supported": true,
+      "reason": "Saved BJ’s facts support operating income and total revenue for the stated fiscal year. The supplied code check confirms their ratio rounds to 3.81%."
+    }
+  ]
+}
